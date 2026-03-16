@@ -155,12 +155,10 @@ body {
 }
 
 #credits {
-    width: 1292px;
+    width: 1280px;
     margin: 0 auto;
     background-color: #3a2209;
     border-top: 3px solid #8b5e2e;
-    border-left: 6px solid #3a2209;
-    border-right: 6px solid #3a2209;
     color: #c8a97a;
     font-size: 9px;
     display: flex;
