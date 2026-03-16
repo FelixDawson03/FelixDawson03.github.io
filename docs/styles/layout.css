@@ -21,12 +21,12 @@ body {
 }
 
 #header {
-	height: 170px;
-	border-top: 5px solid #8b5e2e;
-	border-bottom: 3px solid #8b5e2e;
-	display: flex;
-	position: relative;
-	overflow: hidden;
+    height: 170px;
+    border-top: 5px solid #8b5e2e;
+    border-bottom: 3px solid #8b5e2e;
+    display: flex;
+    position: relative;
+    overflow: hidden;
 }
 
 #logo {
@@ -35,7 +35,7 @@ body {
     flex-shrink: 0;
     background: #a07040 url(../images/logo2.png) no-repeat center center;
     background-size: cover;
-    border-right: 2px solid #8b5e2e;
+    border-right: 3px solid #8b5e2e;
     box-sizing: border-box;
 }
 
@@ -93,12 +93,12 @@ body {
 }
 
 #leftCol {
-	width: 230px;
-	flex-shrink: 0;
-	background-color: #c4a472;
-	border-right: 2px solid #8b5e2e;
-	padding: 20px 0 40px 0;
-	box-sizing: border-box;
+    width: 230px;
+    flex-shrink: 0;
+    background-color: #c4a472;
+    border-right: 3px solid #8b5e2e;
+    padding: 20px 0 40px 0;
+    box-sizing: border-box;
 }
 
 #nav {
