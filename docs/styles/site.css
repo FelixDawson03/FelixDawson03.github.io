@@ -1,1 +1,306 @@
+td.DialoguePerson {
+	font-weight: bold;
+	text-align: right;
+	white-space: nowrap;
+}
 
+span.TranscriptBrackets {
+	font-style: italic;
+}
+
+td.NonDialogue {
+	font-style: italic;
+}
+
+ol.TopTenList {
+	list-style-type: decimal;
+	color: #707070;
+}
+
+ol.TopTenList li {
+	margin-bottom: 8px;
+	font-size: 16pt;
+	color: #707070;
+	line-height: normal;
+}
+
+ol.TopTenList li strong {
+	font-size: 14pt;
+	color: #505050;
+}
+
+ol.TopTenList li span {
+	font-size: 10pt;
+	color: #606060;
+	line-height: normal;
+}
+
+ol.TopTenListComments {
+	list-style-type: decimal;
+	color: #707070;
+}
+
+ol.TopTenListComments li {
+	margin-bottom: 4px;
+	font-size: 12pt;
+	color: #707070;
+	line-height: normal;
+}
+
+ol.TopTenListComments li strong {
+	font-size: 10pt;
+	color: #505050;
+}
+
+.CommentBlock {
+	font-size: 10pt;
+	padding: 6px;
+	margin: 0;
+	border: 1px solid #808080;
+	background: #FFFFFF url(../images/bg-fade.jpg) bottom left repeat-x;
+}
+
+.CommentAuthor {
+	font-size: 14pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #303030;
+	letter-spacing: 3px;
+}
+
+.CommentDate {
+	font-size: 8pt;
+	font-weight: normal;
+	font-style: italic;
+	color: #606060;
+	letter-spacing: 2px;
+}
+
+div.CommentText {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+.SeasonList {
+	margin-bottom: 22px;
+}
+
+.SeasonList h2 {
+	border-bottom: 1px solid #909090;
+}
+
+.SeasonList ul { 
+	list-style-type: none;
+}
+
+.SeasonList ul li {
+	font-weight: normal;
+	font-size: 11px;
+	color: #707070;
+}
+
+.SeasonList ul li a:link, .SeasonList ul li a:visited, .SeasonList ul li a:active {
+	font-weight: bold;
+	color: #494949;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.SeasonList ul li a:hover {
+	color: #CC6600;
+}
+
+.SeasonYear {
+	font-family: "Courier New", Courier, mono;
+}
+
+.TopHeader {
+	width: 100%;
+	background-color: #bc9d7d;
+	height: 20px;
+	border-top: 4px solid #976f51; 
+	border-bottom: 2px solid #976f51;
+}
+
+.TableEvenRow {
+	background-color: #E6E6C6;
+}
+
+.TableHeadings {
+	background-color: #FFFF93;
+}
+
+.TableHeadings th {
+	/* border-bottom: 1px solid #303030; */
+	color: #505050;
+}
+
+.TableViewAll {
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+	font-size: 9pt;
+	width: 100%;
+}
+
+.TableRowDivider {
+	padding: 0;
+	margin: 0;
+	height: 1px;
+	background-color: #333333;
+}
+
+.FormBox, .ViewBox {
+	border: 1px solid #303030;
+}
+
+.ViewBox {
+	width: 100%;
+}
+
+.FormBoxDivider {
+	padding: 0;
+	margin: 0;
+	height: 2px;
+	background-color: #303030;
+}
+
+.FormTitleBox, .ViewBoxTitle {
+	background-color: #85b010;
+	color: #FFFFFF;
+	font-size: 9pt;
+	font-weight: bold;
+}
+
+.FormTitleBox {
+	border-bottom: 2px solid #303030;
+	background: url(../images/box_title_bg.jpg) top left repeat-x;
+}
+
+.ViewBoxTitle td {
+	padding: 4px 4px 4px 4px;
+	border-bottom: 2px solid #303030;
+	background: url(../images/box_title_bg.jpg) top left repeat-x;
+}
+
+.ViewBoxTitle td a:link, .ViewBoxTitle td a:visited, .ViewBoxTitle td a:active {
+	color: #FFFFFF;
+	border: 1px solid #F6F6F6;
+	padding: 2px 4px 2px 4px;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 2px;
+	background: url(../images/box_link_bg.jpg) top left repeat-x;
+}
+
+.ViewBoxTitle td a:hover {
+	color: #FFFF88;
+}
+
+.ViewBoxFooter {
+	background-color: #FFFFFF;
+}
+
+
+.ViewBoxFooter td {
+	padding: 4px 4px 4px 4px;
+	border-top: 2px solid #303030;
+}
+
+.FormHeaderBox {
+	background-color: #F3F3F3;
+}
+
+.FormEditBox, .ViewBoxContents {
+	background-color: #FFFFFF;
+}
+
+.FormInputTextReadOnly {
+	background-color: #F1F1F1;
+}
+
+.FormInputTextSmall {
+	font-size: 9pt;
+}
+
+.FormInputSearch {
+	font-size: 8pt;
+}
+
+.FormInputTextMonospace {
+	font-family: "Courier New", Courier, monospace;
+}
+
+.FormInputLoginText {
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: arial, sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	border: 2px solid #707070;
+	padding-left: 4px;
+}
+
+.FormButtonSearch {
+	color: #2476aa;
+	font-family: arial, verdana, sans-serif;
+	font-weight: bold;
+	font-size: 8pt;
+}
+
+table.TableSearch th, table.TableSearch td {
+	text-align: left;
+	font-size: 8pt;
+	font-weight: normal;
+	padding: 0 0 0 8px;
+	margin: 0;
+}
+
+.FavoriteLink:link, .FavoriteLink:visited, .FavoriteLink:active {
+	font-weight: normal;
+	color: #660000;
+	text-decoration: underline;
+}
+
+.FavoriteLink:hover {
+	color: #CC6600;
+}
+
+.ButtonLink:link, .ButtonLink:visited, .ButtonLink:active {
+	font-size: 12pt;
+	font-weight: bold;
+	color: #660000;
+	text-decoration: none;
+}
+
+.ButtonLink:hover {
+	color: #990000;
+}
+
+a.DesignBy:link, a.DesignBy:visited, a.DesignBy:active {
+	font-weight: normal;
+	color: #E6E6E6;
+	text-decoration: none;
+}
+
+a.DesignBy:hover {
+	color: #FFFF66;
+	text-decoration: underline;
+}
+
+.FooterMenu {
+	font-size: 8pt;
+	color: #F1F1F1;
+}
+
+.FooterMenu a:link, .FooterMenu a:visited, .FooterMenu a:active {
+	font-size: 8pt;
+	font-weight: normal;
+	color: #F1F1F1;
+	text-decoration: none;
+}
+
+.FooterMenu a:hover {
+	color: #c8b38c;
+	text-decoration: underline;
+}
