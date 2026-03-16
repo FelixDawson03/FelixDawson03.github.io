@@ -1,32 +1,15 @@
-/* CSS Document */
-
 /* ===================================================================
-   TAG STYLES FOR ALL PAGES
- * =================================================================== */
-body {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	/* background-color: #FFFFFF; */
-	/* background: #535353 url(images/bg.jpg) repeat; */
-	/* background: #626657 url(../images/background.jpg) repeat-x left top; */
-	background: #3b3b3b url(../images/background.jpg) repeat-x left top;
-	font-family: Arial, Verdana, sans-serif;
-	font-size: 10pt;
-	text-decoration: none;
-	font-weight: normal;
-	font-style: normal;
-	color: #000000;
-}
+   GLOBAL TAG STYLES
+   =================================================================== */
 
 a:link, a:visited, a:active {
-	font-weight: normal;
-	color: #CC6600;
+	color: #6b0f24;
 	text-decoration: underline;
+	font-weight: normal;
 }
 
 a:hover {
-	color: #FF9900;
+	color: #4a0818;
 }
 
 td {
@@ -38,171 +21,114 @@ img {
 	border: 0;
 }
 
-h1, h2, h3, h4, h5, h6, h7 {
-	padding: 0 0 0 0;
-	margin: 0 0 0 0;
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
 }
 
 embed {
 	display: block;
 }
 
-fieldset {
-	font-size: 9pt;
-	font-weight: bold;
-	color: #202020;
-	background-color: #DFDFA9;
-}
-
-legend {
-	font-size: 12pt;
-	color: #660000;
-}
-/* ===================================================================
-   END TAG STYLES FOR ALL PAGES
- * =================================================================== */
-
 
 /* ===================================================================
-   CUSTOM STYLES FOR ALL PAGES
- * =================================================================== */
-.ContentPadding {
-	padding: 0 8px 8px 8px;
-}
-
-.ContentPaddingAll {
-	padding: 8px 8px 8px 8px;
-}
+   TYPOGRAPHY & CONTENT
+   =================================================================== */
 
 .PageHeading {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 24px;
 	font-weight: bold;
 	font-style: italic;
-	color: #5f2404;
-}
-
-.HelpText {
-	font-family: Arial, verdana, sans-serif;
-	font-size: 9pt;
-	margin-top: 10px;
-}
-
-a.ActionLink:link, a.ActionLink:visited, a.ActionLink:active {
-	font-size: 11px;
-	font-weight: bold;
-	text-decoration: none;
-}
-
-a.ActionLink:hover {
-	text-decoration: underline;
-}
-
-.CurrencyCell {
-	font-size: 12px;
-	/* font-family: "Courier New", Courier, monospace; */
-	font-family: Arial, sans-serif;
-	text-align: right;
-	white-space: nowrap;
+	color: #6b0f24;
 }
 
 .OpeningLine {
-	color: #474747;
+	color: #3a2209;
 	font: 24px Georgia, "Times New Roman", Times, serif;
 	text-transform: uppercase;
 	letter-spacing: .06em;
 }
 
 .OpeningWords {
-	color: #474747;
+	color: #3a2209;
 	font-size: 18px;
 	text-transform: uppercase;
 	letter-spacing: .05em;
 }
+
+.ContentPadding {
+	padding: 0 8px 8px 8px;
+}
+
+.ContentPaddingAll {
+	padding: 8px;
+}
+
+
 /* ===================================================================
-   END CUSTOM STYLES FOR ALL PAGES
- * =================================================================== */
- 
- 
+   SIDEBAR & RIGHT COLUMN
+   =================================================================== */
+
+.SidebarHeading {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #6b0f24;
+	border-bottom: 1px solid #8b5e2e;
+	margin-bottom: 6px;
+	padding-bottom: 3px;
+}
+
+.SidebarItem {
+	font-size: 11px;
+	color: #5c3a1e;
+	margin-bottom: 8px;
+	line-height: 1.5;
+	border-bottom: 1px dotted #c4a472;
+	padding-bottom: 8px;
+}
+
+.SidebarItemHeading {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	font-weight: bold;
+	font-style: italic;
+	color: #6b0f24;
+	border-bottom: 1px solid #c4a472;
+	margin-bottom: 10px;
+	padding-bottom: 4px;
+}
+
+
 /* ===================================================================
-   FORMS FOR ALL PAGES
- * =================================================================== */
-.FieldHelp {
-	font-weight: normal;
-	font-family: Arial, verdana, sans-serif;
+   FOOTER
+   =================================================================== */
+
+.FooterMenu {
 	font-size: 8pt;
+	color: #c8a97a;
 }
 
-td.FieldLabel {
-	text-align: right;
-	font-size: 9pt;
-	font-weight: bold;
-}
-
-td.FieldLabelTop {
-	text-align: left;
-	font-size: 9pt;
-	font-weight: bold;
-}
-
-span.FieldLabel {
-	font-size: 9pt;
-	font-weight: bold;
-}
-
-.FormInputButton {
-	color: #333333;
-	font-family: arial, verdana, sans-serif;
-	font-weight: bold;
-	font-size: 14pt;
-}
-
-.FormInput {
-	background-color: #FFFFFF;
-	color: #000000;
-	font-family: arial, verdana, sans-serif;
+.FooterMenu a:link, .FooterMenu a:visited, .FooterMenu a:active {
+	font-size: 8pt;
 	font-weight: normal;
-	font-size: 9pt;
-	border: 1px solid #808080;
-	padding-left: 4px;
+	color: #c8a97a;
+	text-decoration: none;
 }
 
-.FormItem {
-	margin: 0 0 12px 0;
+.FooterMenu a:hover {
+	color: #f5e6d0;
+	text-decoration: underline;
 }
 
-
-.InputText, .InputTextArea, .InputSelect, .InputCheckbox, .InputRadio, .InputDate {
-	color: #303030;
+a.DesignBy:link, a.DesignBy:visited, a.DesignBy:active {
+	font-weight: normal;
+	color: #c8a97a;
+	text-decoration: none;
 }
 
-.InputCaptcha {
-	color: #CC3300;
-	font-weight: bold;
-	font-size: 14pt;
-	letter-spacing: .06em;
+a.DesignBy:hover {
+	color: #f5e6d0;
+	text-decoration: underline;
 }
-
-.CaptchaInputCell {
-	vertical-align: middle;
-}
-
-.CaptchaImageCell {
-	vertical-align: middle;
-	padding-left: 20px;
-}
-
-/*
-textarea, input[type="text"], input[type="password"], input[type="file"], input[type="button"], input[type="submit"], input[type="reset"], select {
-	border-width: 1px;
-	border-style: solid;
-	-moz-border-radius: 4px;
-	-khtml-border-radius: 4px;
-	-webkit-border-radius: 4px;
-	border-radius: 4px;
-}
-*/
-
-/* ===================================================================
-   END FORMS FOR ALL PAGES
- * =================================================================== */
