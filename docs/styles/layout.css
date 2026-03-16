@@ -57,9 +57,9 @@
 					padding: 0px;
 					width: 323px;
 					height: 311px;
-					background: transparent url(../images/logo2.png) no-repeat left top;
-					_background: none;
-					_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.FelixDawson03.github.io/images/logo2.png', sizingMethod='scale');
+					background: url(../images/logo2.png) no-repeat center center;
+					background-size: cover; /* or "contain" to fit without cropping */
+    				overflow: hidden;
 				}
 				#tagline {
 					position: absolute;
