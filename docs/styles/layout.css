@@ -173,7 +173,7 @@ body {
 #credits::before {
     content: '';
     position: absolute;
-    left: 230px;
+    left: 236px;
     top: 0;
     bottom: 0;
     width: 3px;
