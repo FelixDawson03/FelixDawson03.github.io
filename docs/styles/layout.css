@@ -1,1 +1,173 @@
-
+/* Layout Begins */
+#wrapper {
+	margin: 0 auto;
+	padding: 0px;
+	width: 902px;
+	height: auto;
+	background: transparent url(../images/wrapper_bg.jpg) repeat-y left top;
+}
+	#container {
+		margin: 0px;
+		padding: 0px;
+		width: auto;
+		height: auto;
+		background: transparent url(../images/container_bg.jpg) no-repeat left bottom;
+	}
+		/*
+		#container2 {
+			margin: 0px;
+			padding: 0px;
+			width: auto;
+			height: auto;
+			background: transparent url(../images/container2_bg.jpg) no-repeat left top;
+		}
+		*/
+		#container2a {
+			margin: 0px;
+			padding: 0px;
+			width: auto;
+			height: auto;
+			background: transparent url(../images/container2a_bg.jpg) no-repeat left top;
+		}
+		#container2b {
+			margin: 0px;
+			padding: 0px;
+			width: auto;
+			height: auto;
+			background: transparent url(../images/container2b_bg.jpg) no-repeat 0 32px;
+			/* this banner will be dynamic, overridden as inline style */
+		}
+		#container2c {
+			margin: 0px;
+			padding: 0px;
+			width: auto;
+			height: auto;
+			background: transparent url(../images/container2c_bg.jpg) no-repeat 0 200px;
+		}
+			#header {
+				margin: 0px;
+				padding: 32px 0px 0px 0px;
+				width: auto;
+				height: 168px;
+			}
+				#logo {
+					position: absolute;
+					/* margin: -31px 0px 0px -52px; adjust for new layout width from 932 to 902 */
+					margin: -31px 0px 0px -62px;
+					padding: 0px;
+					width: 323px;
+					height: 311px;
+					background: transparent url(../images/logo2.png) no-repeat left top;
+					_background: none;
+					_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.FelixDawson03.github.io/images/logo2.png', sizingMethod='scale');
+				}
+				#tagline {
+					position: absolute;
+					margin: 195px 0px 0px 275px;
+					padding: 0px;
+					width: auto;
+					height: auto;
+					color: #373737;
+					font: 18px/22px Arial, Helvetica, sans-serif;
+					letter-spacing: .07em;
+				}
+				#siteTitle {
+					margin: 0px;
+					padding: 8px 0px 0px 275px;
+					width: auto;
+					height: auto;
+					color: #373737;
+					font: 30px/38px Georgia, "Times New Roman", Times, serif;
+					text-transform: uppercase;
+					letter-spacing: .07em;
+				}
+				#siteTitleSmall {
+					font: 24px/30px Georgia, "Times New Roman", Times, serif;
+					text-transform: none;
+					letter-spacing: .07em;
+				}
+				#siteSubTitle {
+					margin: 0px;
+					padding: 0px 0px 0px 275px;
+					width: auto;
+					height: auto;
+					color: #602501;
+					font: bold 12px/14px Arial, Helvetica, sans-serif;
+				}
+			#leftCol {
+				float: left;
+				margin: 0px;
+				padding: 50px 0px 0px 0px;
+				width: 230px;
+				height: auto;
+			}
+				#nav {
+					position: relative;
+					margin: 0px 0px 0px 10px;
+					padding: 0px;
+					width: auto;
+					height: auto;
+				}
+					#nav li {
+						margin: 0px;
+						padding: 0px 0px 4px 0px;
+						width: auto;
+						height: auto;
+						list-style: none outside none;
+					}
+						#nav a {
+							display: block;
+							margin: 0px;
+							padding: 0px 0px 0px 32px;
+							width: auto; 
+							height: 20px;
+							color: #fff;
+							font: 14px/20px Arial, Helvetica, sans-serif;
+							letter-spacing: .07em;
+							background-color: #373737;
+							border: 2px #000 solid;
+							text-decoration: none;
+							font-weight: bold;
+						}
+						#nav a:hover {
+							color: #E8E3D0;
+							text-decoration: none;
+							background-color: #491D04;
+						}
+				#sidebar {
+					margin: 0px;
+					padding: 40px 25px 20px 30px;
+					width: auto;
+					height: auto;
+					color: #E8E3D0;
+					font: 11px/18px Arial, Helvetica, sans-serif;
+				}
+			#rightCol {
+				margin: 0px 0px 0px 275px;
+				/* padding: 65px 0px 0px 0px; */
+				padding: 40px 0px 0px 0px;
+				width: 600px;
+				height: auto;
+				min-height: 495px;
+				_height: 495px;
+			}
+			#clear {
+				clear: both;
+				margin: 0px;
+				padding: 0px;
+				width: auto;
+				height: 100px;
+			}
+#credits {
+	margin: 0 auto;
+	padding: 10px 0px 30px 0px;
+	width: 902px;
+	height: auto;
+	color: #FFFFFF;
+	font: 10px/12px Arial, Helvetica, sans-serif;
+	/* text-align: center; */
+}
+	#credits a {
+		color: #FFFFFF;
+	}
+/* Layout Ends */
