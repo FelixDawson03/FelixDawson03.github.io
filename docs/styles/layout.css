@@ -159,12 +159,15 @@ body {
     margin: 0 auto;
     background-color: #3a2209;
     border-top: 3px solid #8b5e2e;
+    border-left: 6px solid #8b5e2e;
+    border-right: 6px solid #8b5e2e;
     color: #c8a97a;
     font-size: 9px;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
     padding: 8px 14px;
+    box-shadow: inset 233px 0 0 0 #8b5e2e, inset 236px 0 0 0 #3a2209;
 }
 
 #credits a {
