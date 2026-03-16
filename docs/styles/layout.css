@@ -159,8 +159,6 @@ body {
     margin: 0 auto;
     background-color: #3a2209;
     border-top: 3px solid #8b5e2e;
-    border-left: 6px solid #8b5e2e;
-    border-right: 6px solid #8b5e2e;
     color: #c8a97a;
     font-size: 9px;
     display: flex;
@@ -168,16 +166,6 @@ body {
     box-sizing: border-box;
     padding: 8px 14px 8px 244px;
     position: relative;
-}
-
-#credits::before {
-    content: '';
-    position: absolute;
-    left: 236px;
-    top: 0;
-    bottom: 0;
-    width: 3px;
-    background-color: #8b5e2e;
 }
 
 #credits a {
