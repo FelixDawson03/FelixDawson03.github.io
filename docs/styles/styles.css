@@ -43,6 +43,12 @@ embed {
 	color: #6b0f24;
 }
 
+.PageDivider {
+	border: none;
+	border-top: 1px solid #c4a472;
+	margin: 16px 0;
+}
+
 .OpeningLine {
 	color: #3a2209;
 	font: 24px Georgia, "Times New Roman", Times, serif;
