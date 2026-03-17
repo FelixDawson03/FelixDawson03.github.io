@@ -10,6 +10,7 @@
 <body>
 
 <div id="nav-placeholder"></div>
+<div id="right-sidebar-placeholder"></div>
 <div id="footer-placeholder"></div>
 
 <script>
@@ -23,19 +24,14 @@
         <p>Body text blah blah.</p>
         <p>Body text blah blah.</p>
       `;
-      document.getElementById('rightSidebar').innerHTML = `
-        <div class="SidebarItemHeading">Projects</div>
-        <div class="SidebarItem">Project one — short description here</div>
-        <div class="SidebarItem">Project two — short description here</div>
-        <div class="SidebarItem">Project three — short description here</div>
-        <div class="SidebarItemHeading" style="margin-top:16px;">Links</div>
-        <div class="SidebarItem">Twitter</div>
-        <div class="SidebarItem">Gmail</div>
-        <div class="SidebarItem">Discord</div>
-        <div class="SidebarItem">Wikipedia</div>
-      `;
     });
 
+  fetch('/includes/rightSidebar.html')
+    .then(r => r.text())
+    .then(html => {
+      document.getElementById('right-sidebar-placeholder').innerHTML = html;
+    });
+  
   fetch('/includes/footer.html')
     .then(r => r.text())
     .then(html => {
