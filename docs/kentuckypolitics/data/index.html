@@ -1,1 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <title>Election Data — Website.com</title>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="/styles/layout.css" />
+  <link rel="stylesheet" type="text/css" href="/styles/styles.css" />
+  <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/5980/5980620.png" />
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<div id="footer-placeholder"></div>
+<script>
+  fetch('/includes/nav.html')
+    .then(r => r.text())
+    .then(html => {
+      document.getElementById('nav-placeholder').innerHTML = html;
+      document.getElementById('rightCol').innerHTML = `
+        <div class="PageCornerLink"><a href="/kentuckypolitics/">← Ky. Politics</a></div>
+        <p><span class="PageHeading">Election Data Downloads</span></p>
+        <hr class="PageDivider">
+        <p>Brief description of data sources, methodology, and file formats.</p>
 
+        <div class="DataSection">
+          <div class="DataYear">2024</div>
+          <hr class="DataDivider">
+
+          <div class="DataSubheading">General Election</div>
+          <div class="DataRow">County data <span class="DataLinks"><a href="/kentuckypolitics/data/files/2024-general-county.csv" download>CSV</a></span></div>
+          <div class="DataRow">District-level data <span class="DataLinks"><a href="/kentuckypolitics/data/files/2024-general-district.csv" download>CSV</a></span></div>
+
+          <div class="DataSubheading">Primary Election</div>
+          <div class="DataRow">County data <span class="DataLinks"><a href="/kentuckypolitics/data/files/2024-primary-county.csv" download>CSV</a></span></div>
+          <div class="DataRow">District-level data <span class="DataLinks"><a href="/kentuckypolitics/data/files/2024-primary-district.csv" download>CSV</a></span></div>
+        </div>
+
+        <div class="DataSection">
+          <div class="DataYear">2023</div>
+          <hr class="DataDivider">
+
+          <div class="DataSubheading">General Election</div>
+          <div class="DataRow">County data <span class="DataLinks"><a href="/kentuckypolitics/data/files/2023-general-county.csv" download>CSV</a></span></div>
+          <div class="DataRow">District-level data <span class="DataLinks"><a href="/kentuckypolitics/data/files/2023-general-district.csv" download>CSV</a></span></div>
+
+          <div class="DataSubheading">Primary Election</div>
+          <div class="DataRow">County data <span class="DataLinks"><a href="/kentuckypolitics/data/files/2023-primary-county.csv" download>CSV</a></span></div>
+          <div class="DataRow">District-level data <span class="DataLinks"><a href="/kentuckypolitics/data/files/2023-primary-district.csv" download>CSV</a></span></div>
+        </div>
+
+        <div class="DataSection">
+          <div class="DataYear">2022</div>
+          <hr class="DataDivider">
+
+          <div class="DataSubheading">General Election</div>
+          <div class="DataRow">County data <span class="DataLinks"><a href="/kentuckypolitics/data/files/2022-general-county.csv" download>CSV</a></span></div>
+          <div class="DataRow">District-level data <span class="DataLinks"><a href="/kentuckypolitics/data/files/2022-general-district.csv" download>CSV</a></span></div>
+
+          <div class="DataSubheading">Primary Election</div>
+          <div class="DataRow">County data <span class="DataLinks"><a href="/kentuckypolitics/data/files/2022-primary-county.csv" download>CSV</a></span></div>
+          <div class="DataRow">District-level data <span class="DataLinks"><a href="/kentuckypolitics/data/files/2022-primary-district.csv" download>CSV</a></span></div>
+        </div>
+      `;
+      return fetch('/includes/rightSidebar.html');
+    })
+    .then(r => r.text())
+    .then(html => {
+      document.getElementById('rightSidebar').innerHTML = html;
+    });
+
+  fetch('/includes/footer.html')
+    .then(r => r.text())
+    .then(html => {
+      document.getElementById('footer-placeholder').innerHTML = html;
+      document.getElementById('year').textContent = new Date().getFullYear();
+    });
+</script>
+</body>
+</html>
