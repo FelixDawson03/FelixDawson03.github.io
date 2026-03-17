@@ -45,6 +45,16 @@ embed {
     clear: both;
 }
 
+.PageSectionHeading {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #3a2209;
+    border-bottom: 1px solid #c4a472;
+    margin: 20px 0 8px 0;
+    padding-bottom: 4px;
+}
+
 .PageDivider {
 	border: none;
 	border-top: 1px solid #c4a472;
