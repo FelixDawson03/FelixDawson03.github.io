@@ -112,6 +112,12 @@ embed {
     margin: 0 0 8px 8px;
 }
 
+.PageCornerLinkLeft {
+    float: left;
+    font-size: 9pt;
+    margin: 0 8px 8px 0;
+}
+
 .DataSection {
     margin-bottom: 28px;
 }
