@@ -106,6 +106,49 @@ embed {
 	padding-bottom: 4px;
 }
 
+.PageCornerLink {
+    float: right;
+    font-size: 9pt;
+    margin: 0 0 8px 8px;
+}
+
+.DataSection {
+    margin-bottom: 28px;
+}
+
+.DataYear {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #3a2209;
+    margin-bottom: 4px;
+}
+
+.DataDivider {
+    border: none;
+    border-top: 1px solid #c4a472;
+    margin: 0 0 12px 0;
+}
+
+.DataSubheading {
+    font-weight: bold;
+    font-size: 10pt;
+    color: #2e1a08;
+    margin: 12px 0 6px 0;
+}
+
+.DataRow {
+    font-size: 10pt;
+    color: #2e1a08;
+    padding: 3px 0;
+    border-bottom: 1px dotted #c4a472;
+}
+
+.DataLinks {
+    float: right;
+    font-size: 9pt;
+}
+
 
 /* ===================================================================
    FOOTER
