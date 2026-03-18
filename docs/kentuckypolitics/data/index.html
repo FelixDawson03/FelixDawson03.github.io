@@ -20,21 +20,23 @@
         <p><span class="PageHeading">Election Data Downloads</span></p>
         <hr class="PageDivider">
         <p>The following are data for statewide election results in Kentucky. The county data are directly from the State Board of Elections, while the district-level data (congressional, state senate, state house) were calculated by myself from precinct results.</p>
-
+        
         <div class="DataSection">
           <div class="DataYear">2024</div>
           <hr class="DataDivider">
-
+          
           <div class="DataSubheading">General Election</div>
           <p>Data for President, Amendment 1, and Amendment 2. Note that three provisional ballots for Trump in Fayette County were not given precinct assignments, and are therefore absent from the state senate and state house totals.</p>
           <div class="DataRow">County data <span class="DataLinks">[<a href="/kentuckypolitics/data/2024_county.csv" download>Download CSV</a>]</span></div>
           <div class="DataRow">District-level data <span class="DataLinks">[<a href="/kentuckypolitics/data/2024_districts.csv" download>Download CSV</a>]</span></div>
-
+          
           <div class="DataSubheading">Primary Election</div>
           <p>Data for the Republican and Democratic presidential primaries.</p>
           <div class="DataRow">County data <span class="DataLinks">[<a href="/kentuckypolitics/data/2024_primary_county.csv" download>Download CSV</a>]</span></div>
           <div class="DataRow">District-level data <span class="DataLinks">[<a href="/kentuckypolitics/data/2024_primary_districts.csv" download>Download CSV</a>]</span></div>
-
+        </div>
+        
+        <div class="DataSection">
           <div class="DataYear">2023</div>
           <hr class="DataDivider">
           
@@ -50,7 +52,7 @@
     .then(html => {
       document.getElementById('rightSidebar').innerHTML = html;
     });
-
+  
   fetch('/includes/footer.html')
     .then(r => r.text())
     .then(html => {
