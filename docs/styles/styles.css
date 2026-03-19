@@ -99,7 +99,7 @@ embed {
 
 .SidebarItem {
 	font-size: 11px;
-	color: #5c3a1e;
+	color: #2e1a08;
 	margin-bottom: 8px;
 	line-height: 1.5;
 	border-bottom: 1px dotted #c4a472;
@@ -181,7 +181,7 @@ embed {
 
 .ProgressLabel {
     font-size: 9px;
-    color: #7a5230;
+    color: #2e1a08;
     margin-top: 2px;
     text-align: right;
 }
