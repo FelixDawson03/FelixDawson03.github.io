@@ -167,6 +167,26 @@ embed {
     font-size: 9pt;
 }
 
+.ProgressBar {
+    width: 100%;
+    background-color: #c4a472;
+    height: 6px;
+    margin-top: 6px;
+    box-sizing: border-box;
+}
+
+.ProgressFill {
+    height: 6px;
+    background-color: #6b0f24;
+}
+
+.ProgressLabel {
+    font-size: 9px;
+    color: #7a5230;
+    margin-top: 2px;
+    text-align: right;
+}
+
 
 /* ===================================================================
    FOOTER
