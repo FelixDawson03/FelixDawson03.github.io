@@ -39,6 +39,10 @@ embed {
 	display: block;
 }
 
+.JustifiedText p {
+    text-align: justify;
+}
+
 
 /* ===================================================================
    TYPOGRAPHY & CONTENT
