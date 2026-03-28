@@ -46,14 +46,17 @@ fetch('/includes/bulletin.json')
       const html = entries.slice(0, showing).map(e =>
         `<strong>${e.date}</strong> ${e.text} <a href="${e.url}">${e.article}</a><br>`
       ).join('');
-      const more = showing < entries.length
+      const showMore = showing < entries.length
         ? `<a href="#" id="bulletin-more">Show more</a>`
-        : `<a href="/wikipedia/bulletin/">Full bulletin →</a>`;
-      document.getElementById('bulletin-container').innerHTML = html + more;
+        : `<a href="#" id="bulletin-more" style="opacity:0.4;pointer-events:none;">Show more</a>`;
+      const fullBulletin = `<a href="/wikipedia/bulletin/" id="bulletin-full">Full bulletin</a>`;
+      document.getElementById('bulletin-container').innerHTML = html + `<div style="margin-top:6px;display:flex;gap:6px;">${showMore}${fullBulletin}</div>`;
       document.getElementById('bulletin-more')?.addEventListener('click', e => {
         e.preventDefault();
-        showing += 5;
-        render();
+        if (showing < entries.length) {
+          showing += 5;
+          render();
+        }
       });
     };
     render();
