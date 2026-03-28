@@ -27,19 +27,31 @@
         Link two<br>
         Link three
       </div>
-      <div id="sidebar">
-        <div class="SidebarHeading">Wikipedia Bulletin</div>
-        03.27.2026: Created <a href="https://en.wikipedia.org/wiki/Kentucky%27s_31st_House_of_Representatives_district">House District 31</a><br>
-        03.27.2026: Created <a href="https://en.wikipedia.org/wiki/Kentucky%27s_30th_House_of_Representatives_district">House District 30</a><br>
-        03.27.2026: Created <a href="https://en.wikipedia.org/wiki/Kentucky%27s_29th_House_of_Representatives_district">House District 29</a><br>
-        03.26.2026: Created <a href="https://en.wikipedia.org/wiki/Kentucky%27s_28th_House_of_Representatives_district">House District 28</a><br>
-        03.26.2026: Created <a href="https://en.wikipedia.org/wiki/Kentucky%27s_27th_House_of_Representatives_district">House District 27</a><br>
-        03.25.2026: Created <a href="https://en.wikipedia.org/wiki/Kentucky%27s_26th_House_of_Representatives_district">House District 26</a><br>
-        03.24.2026: Cleaned up <a href="https://en.wikipedia.org/wiki/List_of_cities_in_Kentucky">List of Ky. Cities</a><br>
-        03.13.2026: Created <a href="https://en.wikipedia.org/wiki/Kentucky%27s_25th_House_of_Representatives_district">House District 25</a>
-      </div>
     </div>
     <div id="rightCol"></div>
     <div id="rightSidebar"></div>
   </div>
 </div>
+
+<script>
+fetch('/includes/bulletin.json')
+  .then(r => r.json())
+  .then(entries => {
+    let showing = 5;
+    const render = () => {
+      const html = entries.slice(0, showing).map(e =>
+        `<strong>${e.date}</strong> ${e.text} <a href="${e.url}">${e.article}</a><br>`
+      ).join('');
+      const more = showing < entries.length
+        ? `<a href="#" id="bulletin-more">Show more</a>`
+        : `<a href="/wikipedia/bulletin/">Full bulletin →</a>`;
+      document.getElementById('bulletin-container').innerHTML = html + more;
+      document.getElementById('bulletin-more')?.addEventListener('click', e => {
+        e.preventDefault();
+        showing += 5;
+        render();
+      });
+    };
+    render();
+  });
+</script>
