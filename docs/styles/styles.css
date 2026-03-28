@@ -27,6 +27,38 @@ a:hover {
     line-height: 1.8;
 }
 
+#bulletin-more {
+    display: inline-block;
+    margin-top: 6px;
+    padding: 2px 8px;
+    background-color: #fdf6e3;
+    border: 1px solid #8b5e2e;
+    color: #2a4a7a;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+#bulletin-more:hover {
+    background-color: #f0e6cc;
+    text-decoration: none;
+}
+
+#bulletin-full {
+    display: inline-block;
+    margin-top: 6px;
+    padding: 2px 8px;
+    background-color: #fdf6e3;
+    border: 1px solid #8b5e2e;
+    color: #2a4a7a;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+#bulletin-full:hover {
+    background-color: #f0e6cc;
+    text-decoration: none;
+}
+
 td {
 	text-align: left;
 	vertical-align: top;
@@ -134,22 +166,6 @@ embed {
 	border-bottom: 1px solid #c4a472;
 	margin-bottom: 10px;
 	padding-bottom: 4px;
-}
-
-#bulletin-more {
-    display: inline-block;
-    margin-top: 6px;
-    padding: 2px 8px;
-    background-color: #fdf6e3;
-    border: 1px solid #8b5e2e;
-    color: #2a4a7a;
-    text-decoration: none;
-    font-size: 10px;
-}
-
-#bulletin-more:hover {
-    background-color: #f0e6cc;
-    text-decoration: none;
 }
 
 .PageCornerLink {
