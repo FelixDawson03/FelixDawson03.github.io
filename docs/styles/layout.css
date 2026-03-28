@@ -171,3 +171,7 @@ body {
 #credits a {
 	color: #c8a97a;
 }
+
+#footer-placeholder {
+    min-width: 1280px;
+}
