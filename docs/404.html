@@ -6,6 +6,7 @@
   <link rel="stylesheet" type="text/css" href="/styles/layout.css" />
   <link rel="stylesheet" type="text/css" href="/styles/styles.css" />
   <link rel="shortcut icon" href="/images/icon.png" />
+  <script src="/scripts/utils.js"></script>
 </head>
 <body>
 
@@ -16,7 +17,7 @@
   fetch('/includes/nav.html')
   .then(r => r.text())
   .then(html => {
-    document.getElementById('nav-placeholder').innerHTML = html;
+    injectHTML(document.getElementById('nav-placeholder'), html);
     document.getElementById('rightCol').innerHTML = `
       <p><span class="PageHeading">404 — Page Not Found</span></p>
       <hr class="PageDivider">
