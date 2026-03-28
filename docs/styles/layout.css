@@ -130,7 +130,7 @@ body {
 	color: #fdf6e3;
 }
 
-#sidebar {
+#sidebar, .sidebar-block {
 	padding: 18px 16px;
 	font-size: 11px;
 	color: #3a2209;
