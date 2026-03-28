@@ -22,9 +22,10 @@ a:hover {
 }
 
 #bulletin-container {
-    font-size: 11px;
+    font-size: 10px;
     color: #2e1a08;
     line-height: 1.8;
+    padding-left: 16px;
 }
 
 td {
