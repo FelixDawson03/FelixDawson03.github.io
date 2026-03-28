@@ -21,6 +21,12 @@ a:hover {
     color: #fdf6e3;
 }
 
+#bulletin-container {
+    font-size: 11px;
+    color: #2e1a08;
+    line-height: 1.8;
+}
+
 td {
 	text-align: left;
 	vertical-align: top;
