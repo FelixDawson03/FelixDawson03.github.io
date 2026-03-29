@@ -44,7 +44,7 @@ fetch('/includes/bulletin.json')
     let showing = 5;
     const render = () => {
       const html = entries.slice(0, showing).map(e =>
-        `<div style="padding-left:6.5em;text-indent:-6.5em;"><strong>${e.date}</strong> ${e.text} <a href="${e.url}">${e.article}</a></div>`
+        `<div style="padding-left:5em;text-indent:-5em;"><strong>${e.date}</strong> ${e.text} <a href="${e.url}">${e.article}</a></div>`
       ).join('');
       const showMore = showing < entries.length
         ? `<a href="#" id="bulletin-more">Show more</a>`
