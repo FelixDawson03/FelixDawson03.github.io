@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <title>About — Felix Dawson</title>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="/styles/layout.css" />
+  <link rel="stylesheet" type="text/css" href="/styles/styles.css" />
+  <link rel="shortcut icon" href="/images/icon.png" />
+  <script src="/scripts/utils.js"></script>
+</head>
+<body>
+
+<div id="nav-placeholder"></div>
+<div id="footer-placeholder"></div>
+
+<script>
+  fetch('/includes/nav.html')
+  .then(r => r.text())
+  .then(html => {
+    injectHTML(document.getElementById('nav-placeholder'), html);
+    document.getElementById('rightCol').innerHTML = `
+      <p><span class="PageHeading">What is this?</span></p>
+      <hr class="PageDivider">
+      <p>Body text blah blah.</p>
+      <p>Body text blah blah.</p>
+    `;
+    return fetch('/includes/rightSidebar.html');
+  })
+  .then(r => r.text())
+  .then(html => {
+    document.getElementById('rightSidebar').innerHTML = html;
+  });
+
+fetch('/includes/footer.html')
+  .then(r => r.text())
+  .then(html => {
+    document.getElementById('footer-placeholder').innerHTML = html;
+    document.getElementById('year').textContent = new Date().getFullYear();
+  });
+</script>
+
+</body>
+</html>
