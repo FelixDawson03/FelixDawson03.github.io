@@ -19,10 +19,10 @@
   .then(html => {
     injectHTML(document.getElementById('nav-placeholder'), html);
     document.getElementById('rightCol').innerHTML = `
-      <p><span class="PageHeading">What is this?</span></p>
+      <p><span class="PageHeading">Home</span></p>
       <hr class="PageDivider">
-      <p>Body text blah blah.</p>
-      <p>Body text blah blah.</p>
+      <p>Welcome to my personal website! I'm just getting started, so things are a little empty right now... Click the "About" section to find out more about me and what this website is for. Hopefully I'll be adding more very soon!</p>
+      <p>Best wishes,<br>Felix :)</p>
     `;
     return fetch('/includes/rightSidebar.html');
   })
