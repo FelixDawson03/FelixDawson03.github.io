@@ -19,10 +19,11 @@
   .then(html => {
     injectHTML(document.getElementById('nav-placeholder'), html);
     document.getElementById('rightCol').innerHTML = `
-      <p><span class="PageHeading">What is this?</span></p>
+      <p><span class="PageHeading">About</span></p>
       <hr class="PageDivider">
-      <p>Body text blah blah.</p>
-      <p>Body text blah blah.</p>
+      <p>Who am I? What is this? My name is Felix Dawson and welcome to my personal website! I have many different interests and hobbies, and I wanted somewhere that I could put them all in one place to share with my friends and the world—so here it is.</p>
+      <p>About me: I live in Kentucky and have a degree in political science from the University of Kentucky. I'm on a journey to become a self-appointed expert in Kentucky politics, which is very much my niche in this world. I hope to eventually flesh out the Ky-pol section of this website with various explainers, resources, and what-have-you for the public about Kentucky politics and elections. I've also tasked myself with the never-ending task of cleaning up Wikipedia articles pertaining to Kentucky politics.</p>
+      <p>If you would like to contact me about something on this site or anything else really, my email is linked on the right sidebar. Please do—I'm very bored.</p>
     `;
     return fetch('/includes/rightSidebar.html');
   })
