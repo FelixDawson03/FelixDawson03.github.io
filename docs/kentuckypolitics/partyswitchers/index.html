@@ -16,11 +16,47 @@
     .then(r => r.text())
     .then(html => {
       injectHTML(document.getElementById('nav-placeholder'), html);
-      document.getElementById('rightCol').innerHTML = `
-        <div class="PageCornerLinkLeft"><a href="/kentuckypolitics/">← Kentucky Politics</a></div>
-        <p><span class="PageHeading">Kentucky Party Switchers</span></p>
-        <hr class="PageDivider">
-        <p>The following legislators switched parties.</p>
+      return fetch('/includes/partyswitchers.json');
+  })
+  .then(r => r.json())
+  .then(data => {
+    const switchColor = s => s === 'D→R' ? '#ffcccc' : s === 'R→D' ? '#cce0ff' : s === 'R→I' ? '#ffffcc' : '#fff';
+
+    let rows = '';
+    data.forEach(member => {
+      member.switches.forEach((s, i) => {
+        const isFirst = i === 0;
+        const rowspan = member.switches.length;
+        rows += `<tr>
+          ${isFirst ? `<td rowspan="${rowspan}">${member.member}</td>` : ''}
+          <td style="background:${switchColor(s.switch)};white-space:nowrap;">${s.switch}</td>
+          <td style="white-space:nowrap;">${s.date}</td>
+          ${isFirst ? `<td rowspan="${rowspan}">${member.hometown}</td>` : ''}
+          <td style="white-space:nowrap;">${s.district}</td>
+          <td style="white-space:nowrap;">${s.termBegin}</td>
+          <td style="white-space:nowrap;">${s.termEnd}</td>
+          ${isFirst ? `<td rowspan="${rowspan}">${s.notes}</td>` : ''}
+        </tr>`;
+      });
+    });
+
+    document.getElementById('rightCol').innerHTML = `
+      <div class="PageCornerLinkLeft"><a href="/kentuckypolitics/">← Kentucky Politics</a></div>
+      <p><span class="PageHeading">Kentucky Party Switchers</span></p>
+      <hr class="PageDivider">
+      <p>The following legislators switched parties.</p>
+      <div style="overflow-x:auto;">
+        <table class="DataTable">
+          <thead>
+            <tr>
+              <th>Member</th><th>Switch</th><th>Date of switch</th>
+              <th>Hometown</th><th>District</th><th>Term begin</th>
+              <th>Term end</th><th>Notes</th>
+            </tr>
+          </thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>      
       `;
       return fetch('/includes/rightSidebar.html');
     })
