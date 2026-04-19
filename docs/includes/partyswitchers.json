@@ -35,5 +35,181 @@
         "notes": ""
       }
     ]
+  },
+  {
+    "member": "Dan Seum",
+    "switches": [
+      {
+        "switch": "D→R",
+        "date": "July 12, 1999",
+        "hometown": "Louisville",
+        "district": "House (38th)",
+        "termBegin": "Jan. 1, 1982",
+        "termEnd": "Jan. 1, 1989",
+        "notes": "Resigned in 2019."
+      },
+      {
+        "switch": "",
+        "date": "",
+        "hometown": "",
+        "district": "Senate (37th)",
+        "termBegin": "Jan. 1, 1989",
+        "termEnd": "Jan. 1, 1993",
+        "notes": ""
+      },
+      {
+        "switch": "",
+        "date": "",
+        "hometown": "",
+        "district": "Senate (38th)",
+        "termBegin": "Jan. 1, 1995",
+        "termEnd": "Nov. 16, 2019",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "member": "Bob Leeper",
+    "switches": [
+      {
+        "switch": "D→R",
+        "date": "August 22, 1999",
+        "hometown": "Paducah",
+        "district": "Senate (2nd)",
+        "termBegin": "Jan. 1, 1991",
+        "termEnd": "Jan. 1, 2015",
+        "notes": "Retired in 2014."
+      },
+      {
+        "switch": "R→I",
+        "date": "January 11, 2005",
+        "hometown": "",
+        "district": "",
+        "termBegin": "",
+        "termEnd": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "member": "Thomas Kerr",
+    "switches": [
+      {
+        "switch": "D→R",
+        "date": "October 9, 2003",
+        "hometown": "Taylor Mill",
+        "district": "House (64th)",
+        "termBegin": "Jan. 1, 1985",
+        "termEnd": "Sep. 16, 2016",
+        "notes": "Resigned in 2016 to join Bevin administration."
+      }
+    ]
+  },
+  {
+    "member": "James Carr",
+    "switches": [
+      {
+        "switch": "D→R",
+        "date": "October 3, 2005",
+        "hometown": "Hopkinsville",
+        "district": "House (8th)",
+        "termBegin": "Jan. 1, 2005",
+        "termEnd": "Jan. 1, 2007",
+        "notes": "Lost reelection in 2006."
+      }
+    ]
+  },
+  {
+    "member": "Milward Dedman",
+    "switches": [
+      {
+        "switch": "R→D",
+        "date": "September 12, 2007",
+        "hometown": "Harrodsburg",
+        "district": "House (55th)",
+        "termBegin": "Jan. 1, 2005",
+        "termEnd": "Jan. 1, 2009",
+        "notes": "Lost Democratic primary in 2008."
+      }
+    ]
+  },
+  {
+    "member": "Melvin Henley",
+    "switches": [
+      {
+        "switch": "R→D",
+        "date": "September 14, 2007",
+        "hometown": "Murray",
+        "district": "House (5th)",
+        "termBegin": "Jan. 1, 2005",
+        "termEnd": "Jan. 1, 2013",
+        "notes": "Retired in 2012."
+      }
+    ]
+  },
+  {
+    "member": "Wade Hurt",
+    "switches": [
+      {
+        "switch": "R→D",
+        "date": "April 22, 2011",
+        "hometown": "Louisville",
+        "district": "House (37th)",
+        "termBegin": "Jan. 1, 2011",
+        "termEnd": "Jan. 1, 2013",
+        "notes": "Lost Democratic primary in 2012."
+      }
+    ]
+  },
+  {
+    "member": "Denver Butler Jr.",
+    "switches": [
+      {
+        "switch": "D→R",
+        "date": "November 19, 2015",
+        "hometown": "Louisville",
+        "district": "House (38th)",
+        "termBegin": "Jan. 1, 2013",
+        "termEnd": "Jan. 1, 2017",
+        "notes": "Lost reelection in 2016."
+      }
+    ]
+  },
+  {
+    "member": "Jim Gooch Jr.",
+    "switches": [
+      {
+        "switch": "D→R",
+        "date": "December 28, 2015",
+        "hometown": "Providence",
+        "district": "House (12th)",
+        "termBegin": "Jan. 1, 1995",
+        "termEnd": "present",
+        "notes": "Incumbent."
+      }
+    ]
+  },
+  {
+    "member": "Robin Webb",
+    "switches": [
+      {
+        "switch": "D→R",
+        "date": "May 30, 2025",
+        "hometown": "Grayson",
+        "district": "House (96th)",
+        "termBegin": "Jan. 1, 1999",
+        "termEnd": "Sep. 1, 2009",
+        "notes": "Incumbent."
+      },
+      {
+        "switch": "",
+        "date": "",
+        "hometown": "",
+        "district": "Senate (18th)",
+        "termBegin": "Sep. 1, 2009",
+        "termEnd": "present",
+        "notes": ""
+      }
+    ]
   }
 ]
