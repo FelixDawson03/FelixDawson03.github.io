@@ -1,0 +1,39 @@
+[
+  {
+    "member": "Donald Johnson",
+    "switches": [
+      {
+        "switch": "R→D",
+        "date": "November 17, 1977",
+        "hometown": "Fort Thomas",
+        "district": "Senate (11th)",
+        "termBegin": "Jan. 1, 1964",
+        "termEnd": "Jan. 1, 1980",
+        "notes": "Lost reelection in 1979."
+      }
+    ]
+  },
+  {
+    "member": "Kenny Imes",
+    "switches": [
+      {
+        "switch": "D→R",
+        "date": "Between 1989 and 1998",
+        "hometown": "Murray",
+        "district": "House (5th)",
+        "termBegin": "Jan. 1, 1972",
+        "termEnd": "Feb. 13, 1979",
+        "notes": "Switched parties between terms in office."
+      },
+      {
+        "switch": "",
+        "date": "",
+        "hometown": "",
+        "district": "House (5th)",
+        "termBegin": "Jan. 1, 2013",
+        "termEnd": "Oct. 1, 2018",
+        "notes": ""
+      }
+    ]
+  }
+]
