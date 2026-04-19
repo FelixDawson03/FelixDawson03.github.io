@@ -133,6 +133,28 @@ embed {
 	padding: 8px;
 }
 
+.DataTable {
+    border-collapse: collapse;
+    font-size: 10pt;
+    width: 100%;
+}
+
+.DataTable th, .DataTable td {
+    border: 1px solid #c4a472;
+    padding: 4px 8px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.DataTable th {
+    background-color: #f0e6cc;
+    font-weight: bold;
+    color: #3a2209;
+}
+
+.DataTable tr:nth-child(even) {
+    background-color: #faf3e0;
+}
 
 /* ===================================================================
    SIDEBAR & RIGHT COLUMN
