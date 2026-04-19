@@ -1,6 +1,7 @@
 [
   {
     "member": "Donald Johnson",
+    "spanRows": false,
     "switches": [
       {
         "switch": "R→D",
@@ -15,6 +16,7 @@
   },
   {
     "member": "Kenny Imes",
+    "spanRows": true,
     "switches": [
       {
         "switch": "D→R",
@@ -38,6 +40,7 @@
   },
   {
     "member": "Dan Seum",
+    "spanRows": true,
     "switches": [
       {
         "switch": "D→R",
@@ -70,6 +73,7 @@
   },
   {
     "member": "Bob Leeper",
+    "spanRows": false,
     "switches": [
       {
         "switch": "D→R",
@@ -93,6 +97,7 @@
   },
   {
     "member": "Thomas Kerr",
+    "spanRows": false,
     "switches": [
       {
         "switch": "D→R",
@@ -107,6 +112,7 @@
   },
   {
     "member": "James Carr",
+    "spanRows": false,
     "switches": [
       {
         "switch": "D→R",
@@ -121,6 +127,7 @@
   },
   {
     "member": "Milward Dedman",
+    "spanRows": false,
     "switches": [
       {
         "switch": "R→D",
@@ -135,6 +142,7 @@
   },
   {
     "member": "Melvin Henley",
+    "spanRows": false,
     "switches": [
       {
         "switch": "R→D",
@@ -149,6 +157,7 @@
   },
   {
     "member": "Wade Hurt",
+    "spanRows": false,
     "switches": [
       {
         "switch": "R→D",
@@ -163,6 +172,7 @@
   },
   {
     "member": "Denver Butler Jr.",
+    "spanRows": false,
     "switches": [
       {
         "switch": "D→R",
@@ -177,6 +187,7 @@
   },
   {
     "member": "Jim Gooch Jr.",
+    "spanRows": false,
     "switches": [
       {
         "switch": "D→R",
@@ -191,6 +202,7 @@
   },
   {
     "member": "Robin Webb",
+    "spanRows": true,
     "switches": [
       {
         "switch": "D→R",
