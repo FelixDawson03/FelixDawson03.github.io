@@ -29,8 +29,8 @@
         const rowspan = member.switches.length;
         rows += `<tr>
           ${isFirst ? `<td rowspan="${rowspan}">${member.member}</td>` : ''}
-          <td style="background:${switchColor(s.switch)};white-space:nowrap;">${s.switch}</td>
-          <td style="white-space:nowrap;">${s.date}</td>
+          ${isFirst || !member.spanRows ? `<td rowspan="${member.spanRows ? rowspan : 1}" style="background:${switchColor(s.switch)};white-space:nowrap;">${s.switch}</td>` : ''}
+          ${isFirst || !member.spanRows ? `<td rowspan="${member.spanRows ? rowspan : 1}" style="white-space:nowrap;">${s.date}</td>` : ''}
           ${isFirst ? `<td rowspan="${rowspan}">${s.hometown}</td>` : ''}
           <td style="white-space:nowrap;">${s.district}</td>
           <td style="white-space:nowrap;">${s.termBegin}</td>
