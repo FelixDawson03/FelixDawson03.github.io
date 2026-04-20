@@ -18,6 +18,7 @@
     "member": "Kenny Imes",
     "spanRows": true,
     "spanDistrict": true,
+    "spanTerms": false,
     "switches": [
       {
         "switch": "D→R",
@@ -76,6 +77,7 @@
     "member": "Bob Leeper",
     "spanRows": false,
     "spanDistrict": true,
+    "spanTerms": true,
     "switches": [
       {
         "switch": "D→R",
