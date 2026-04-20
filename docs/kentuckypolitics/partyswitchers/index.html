@@ -17,49 +17,49 @@
     .then(html => {
       injectHTML(document.getElementById('nav-placeholder'), html);
       return fetch('/includes/partyswitchers.json');
-  })
-  .then(r => r.json())
-  .then(data => {
-    const switchColor = s => s === 'D→R' ? '#ffcccc' : s === 'R→D' ? '#cce0ff' : s === 'R→I' ? '#ffffcc' : '#fff';
-
-    let rows = '';
-    data.forEach(member => {
-      member.switches.forEach((s, i) => {
-        const isFirst = i === 0;
-        const rowspan = member.switches.length;
-        rows += `<tr>
-          ${isFirst ? `<td rowspan="${rowspan}">${member.member}</td>` : ''}
-          ${isFirst || !member.spanRows ? `<td rowspan="${member.spanRows ? rowspan : 1}" style="background:${switchColor(s.switch)};white-space:nowrap;">${s.switch}</td>` : ''}
-          ${isFirst || !member.spanRows ? `<td rowspan="${member.spanRows ? rowspan : 1}" style="white-space:nowrap;">${s.date}</td>` : ''}
-          ${isFirst ? `<td rowspan="${rowspan}">${s.hometown}</td>` : ''}
-          ${isFirst || !member.spanDistrict ? `<td rowspan="${member.spanDistrict ? rowspan : 1}" style="white-space:nowrap;">${s.district}</td>` : ''}
-          ${isFirst || !member.spanTerms ? `<td rowspan="${member.spanTerms ? rowspan : 1}" style="white-space:nowrap;">${s.termBegin}</td>` : ''}
-          ${isFirst || !member.spanTerms ? `<td rowspan="${member.spanTerms ? rowspan : 1}" style="white-space:nowrap;">${s.termEnd}</td>` : ''}
-          ${isFirst ? `<td rowspan="${rowspan}">${s.notes}</td>` : ''}
-        </tr>`;
+    })
+    .then(r => r.json())
+    .then(data => {
+      const switchColor = s => s === 'D→R' ? '#ffcccc' : s === 'R→D' ? '#cce0ff' : s === 'R→I' ? '#ffffcc' : '#fff';
+      let rows = '';
+      data.forEach(member => {
+        member.switches.forEach((s, i) => {
+          const isFirst = i === 0;
+          const rowspan = member.switches.length;
+          rows += `<tr>
+            ${isFirst ? `<td rowspan="${rowspan}">${member.member}</td>` : ''}
+            ${isFirst || !member.spanRows ? `<td rowspan="${member.spanRows ? rowspan : 1}" style="background:${switchColor(s.switch)};white-space:nowrap;">${s.switch}</td>` : ''}
+            ${isFirst || !member.spanRows ? `<td rowspan="${member.spanRows ? rowspan : 1}" style="white-space:nowrap;">${s.date}</td>` : ''}
+            ${isFirst ? `<td rowspan="${rowspan}">${s.hometown}</td>` : ''}
+            ${isFirst || !member.spanDistrict ? `<td rowspan="${member.spanDistrict ? rowspan : 1}" style="white-space:nowrap;">${s.district}</td>` : ''}
+            ${isFirst || !member.spanTerms ? `<td rowspan="${member.spanTerms ? rowspan : 1}" style="white-space:nowrap;">${s.termBegin}</td>` : ''}
+            ${isFirst || !member.spanTerms ? `<td rowspan="${member.spanTerms ? rowspan : 1}" style="white-space:nowrap;">${s.termEnd}</td>` : ''}
+            ${isFirst ? `<td rowspan="${rowspan}">${s.notes}</td>` : ''}
+          </tr>`;
+        });
       });
+      document.getElementById('rightCol').innerHTML = `
+        <div class="PageCornerLinkLeft"><a href="/kentuckypolitics/">← Kentucky Politics</a></div>
+        <p><span class="PageHeading">Kentucky Legislators Who Switched Parties</span></p>
+        <p class="PageSubtitle">Published April 19, 2026</p>
+        <hr class="PageDivider">
+        <p>The following are members of the Kentucky General Assembly who switched parties in office or between terms in office. Legislators who switched parties before or after they held office are not included.</p>
+        <div style="overflow-x:auto;">
+          <table class="DataTable">
+            <thead>
+              <tr>
+                <th>Member</th><th>Switch</th><th>Date of switch</th>
+                <th>Hometown</th><th>District</th><th>Term begin</th>
+                <th>Term end</th><th>Notes</th>
+              </tr>
+            </thead>
+            <tbody>${rows}</tbody>
+          </table>
+        </div>
+      `;
+      document.getElementById('rightSidebar').style.display = 'none';
     });
 
-    document.getElementById('rightCol').innerHTML = `
-      <div class="PageCornerLinkLeft"><a href="/kentuckypolitics/">← Kentucky Politics</a></div>
-      <p><span class="PageHeading">Kentucky Legislators Who Switched Parties</span></p>
-      <p class="PageSubtitle">Published April 19, 2026</p>
-      <hr class="PageDivider">
-      <p>The following are members of the Kentucky General Assembly who switched parties in office or between terms in office. Legislators who switched parties before or after they held office are not included.</p>
-      <div style="overflow-x:auto;">
-        <table class="DataTable">
-          <thead>
-            <tr>
-              <th>Member</th><th>Switch</th><th>Date of switch</th>
-              <th>Hometown</th><th>District</th><th>Term begin</th>
-              <th>Term end</th><th>Notes</th>
-            </tr>
-          </thead>
-          <tbody>${rows}</tbody>
-        </table>
-      </div>      
-      `;
-  
   fetch('/includes/footer.html')
     .then(r => r.text())
     .then(html => {
