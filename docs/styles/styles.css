@@ -95,6 +95,14 @@ embed {
     clear: both;
 }
 
+.PageSubtitle {
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 9pt;
+    font-style: italic;
+    color: #7a5230;
+    margin: 0 0 12px 0;
+}
+
 .PageSectionHeading {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 16px;
