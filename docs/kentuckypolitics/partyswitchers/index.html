@@ -33,8 +33,8 @@
           ${isFirst || !member.spanRows ? `<td rowspan="${member.spanRows ? rowspan : 1}" style="white-space:nowrap;">${s.date}</td>` : ''}
           ${isFirst ? `<td rowspan="${rowspan}">${s.hometown}</td>` : ''}
           ${isFirst || !member.spanDistrict ? `<td rowspan="${member.spanDistrict ? rowspan : 1}" style="white-space:nowrap;">${s.district}</td>` : ''}
-          ${isFirst || !member.spanDistrict ? `<td rowspan="${member.spanDistrict ? rowspan : 1}" style="white-space:nowrap;">${s.termBegin}</td>` : ''}
-          ${isFirst || !member.spanDistrict ? `<td rowspan="${member.spanDistrict ? rowspan : 1}" style="white-space:nowrap;">${s.termEnd}</td>` : ''}
+          ${isFirst || !member.spanTerms ? `<td rowspan="${member.spanTerms ? rowspan : 1}" style="white-space:nowrap;">${s.termBegin}</td>` : ''}
+          ${isFirst || !member.spanTerms ? `<td rowspan="${member.spanTerms ? rowspan : 1}" style="white-space:nowrap;">${s.termEnd}</td>` : ''}
           ${isFirst ? `<td rowspan="${rowspan}">${s.notes}</td>` : ''}
         </tr>`;
       });
