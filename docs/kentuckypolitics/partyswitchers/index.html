@@ -59,12 +59,6 @@
         </table>
       </div>      
       `;
-      return fetch('/includes/rightSidebar.html');
-    })
-    .then(r => r.text())
-    .then(html => {
-      document.getElementById('rightSidebar').innerHTML = html;
-    });
   
   fetch('/includes/footer.html')
     .then(r => r.text())
