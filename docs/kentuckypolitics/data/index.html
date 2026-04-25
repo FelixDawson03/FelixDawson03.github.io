@@ -106,7 +106,16 @@
     })
     .then(r => r.text())
     .then(html => {
-      document.getElementById('rightSidebar').innerHTML = html;
+      document.getElementById('rightSidebar').innerHTML = html + `
+        <div class="SidebarItemHeading">Data coverage</div>
+        <div class="SidebarItem"><b>2024 general</b>
+          <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+          </ul>
+        </div>
+      `;
     });
   
   fetch('/includes/footer.html')
