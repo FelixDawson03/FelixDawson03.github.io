@@ -23,9 +23,7 @@
       </ul>
       <div id="sidebar">
         <div class="SidebarHeading">Recent</div>
-          <b>04.24.2026</b> Added <a href="/kentuckypolitics/data/">2022 general election data</a><br>
-          <b>04.19.2026</b> Published <a href="/kentuckypolitics/partyswitchers/">list of Ky. party switchers</a><br>
-          <b>04.09.2026</b> Website launch!
+        <div id="recent-container"></div>
       </div>
       <div class="sidebar-block">
         <div class="SidebarHeading">Wikipedia Bulletin</div>
@@ -38,6 +36,16 @@
 </div>
 
 <script>
+fetch('/includes/recent.json')
+  .then(r => r.json())
+  .then(entries => {
+    const html = entries.slice(0, 5).map(e =>
+      e.url
+        ? `<div style="padding-left:5.275em;text-indent:-5.275em;"><strong>${e.date}</strong> ${e.text} <a href="${e.url}">${e.article}</a></div>`
+        : `<div><strong>${e.date}</strong> ${e.text}</div>`
+    ).join('');
+    document.getElementById('recent-container').innerHTML = html;
+  });
 fetch('/includes/bulletin.json')
   .then(r => r.json())
   .then(entries => {
