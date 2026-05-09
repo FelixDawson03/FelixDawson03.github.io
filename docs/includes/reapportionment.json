@@ -126,7 +126,7 @@
     "elections": "2022-present",
     "electionRowspan": 1,
     "rows": [
-      {"year": "2022", "yearRowspan": 1, "house": "2022 c 7", "senate": "2022 c 9", "notes": ""}
+      {"year": "2022", "yearRowspan": 1, "house": "<a href=\"/kentuckypolitics/redistricting/2022_H.pdf\" download>2022 c 7</a>", "senate": "<a href=\"/kentuckypolitics/redistricting/2022_S.pdf\" download>2022 c 9</a>", "notes": ""}
     ]
   }
 ]
