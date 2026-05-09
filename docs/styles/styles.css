@@ -155,11 +155,11 @@ embed {
 }
 
 .DataTable tr.RowEven {
-    background-color: #f0e6cc;
+    background-color: #fdf6e3;
 }
 
 .DataTable tr.RowOdd {
-    background-color: #fdf6e3;
+    background-color: #f0e6cc;
 }
 
 .DataTable th {
