@@ -22,13 +22,14 @@
     .then(data => {
       const switchColor = s => s === 'D→R' ? '#ffcccc' : s === 'R→D' ? '#cce0ff' : s === 'R→I' ? '#ffffcc' : '#fff';
       let groupIndex = 0;
+      let rows = '';
       data.forEach(group => {
           const groupClass = groupIndex % 2 === 0 ? 'RowEven' : 'RowOdd';
           groupIndex++;
           group.rows.forEach((r, i) => {
             const isFirst = i === 0;
             const hasShared = r.hasOwnProperty('houseSenateShared');
-            rows += `<tr>
+            rows += `<tr class="${groupClass}">
               ${isFirst ? `<td rowspan="${group.electionRowspan}">${group.elections}</td>` : ''}
               ${r.yearRowspan !== 0 ? `<td rowspan="${r.yearRowspan}" style="white-space:nowrap;">${r.year}</td>` : ''}
               ${hasShared
