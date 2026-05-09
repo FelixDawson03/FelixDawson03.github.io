@@ -1,0 +1,156 @@
+[
+  {
+    "elections": "1851-59",
+    "electionRowspan": 1,
+    "rows": [
+      {"year": "1851", "houseSenateShared": "1850-51 c 392", "notes": ""}
+    ]
+  },
+  {
+    "elections": "1861-65",
+    "electionRowspan": 2,
+    "rows": [
+      {"year": "1860", "houseSenateShared": "1859-60 c 821", "notes": "The statutes must be read as a pair: the second amended the first."},
+      {"year": "", "houseSenateShared": "1859-60 c 1325", "notes": ""}
+    ]
+  },
+  {
+    "elections": "1867-73",
+    "electionRowspan": 1,
+    "rows": [
+      {"year": "1867", "houseSenateShared": "1867 adj c 1774", "notes": ""}
+    ]
+  },
+  {
+    "elections": "1875-91",
+    "electionRowspan": 2,
+    "rows": [
+      {"year": "1874", "houseSenateShared": "1873-74 c 325", "notes": "The statutes must be read as a pair: the second amended the first."},
+      {"year": "", "houseSenateShared": "1873-74 c 586", "notes": ""}
+    ]
+  },
+  {
+    "elections": "",
+    "electionRowspan": 1,
+    "rows": [
+      {"year": "1890*", "house": "—", "senate": "1889-90 c 1343", "notes": ""}
+    ]
+  },
+  {
+    "elections": "1893-1917",
+    "electionRowspan": 2,
+    "rows": [
+      {"year": "1893", "house": "1891-93 c 193", "senate": "1891-93 c 235", "notes": ""},
+      {"year": "1914*", "house": "—", "senate": "1914 c 50", "notes": ""}
+    ]
+  },
+  {
+    "elections": "1919-41",
+    "electionRowspan": 1,
+    "rows": [
+      {"year": "1918", "house": "1918 c 45", "senate": "1918 c 3", "notes": ""}
+    ]
+  },
+  {
+    "elections": "1943-61",
+    "electionRowspan": 3,
+    "rows": [
+      {"year": "1942", "house": "1942 (ex. 1) c 2", "senate": "1942 (ex. 1) c 1", "notes": ""},
+      {"year": "1946*", "house": "1946 c 119", "senate": "1946 c 82", "notes": ""},
+      {"year": "1963", "house": "1963 (ex. 1) c 3", "senate": "1963 (ex. 1) c 2", "notes": ""}
+    ]
+  },
+  {
+    "elections": "1963-69",
+    "electionRowspan": 3,
+    "rows": [
+      {"year": "1964*", "house": "—", "senate": "1964 c 15", "notes": ""},
+      {"year": "1966*", "house": "1966 c 166", "senate": "—", "notes": ""},
+      {"year": "", "houseSenateShared": "1966 c 196", "notes": ""}
+    ]
+  },
+  {
+    "elections": "1971",
+    "electionRowspan": 1,
+    "rows": [
+      {"year": "1971", "houseSenateShared": "1971 (ex. 1) c 2", "notes": "Enjoined in <i>Hensley v. Wood</i>, 329 F. Supp. 787 (E.D. Ky. 1971)."}
+    ]
+  },
+  {
+    "elections": "",
+    "electionRowspan": 1,
+    "rows": [
+      {"year": "1972", "houseSenateShared": "1972 (ex. 1) c 6", "notes": ""}
+    ]
+  },
+  {
+    "elections": "1973-81",
+    "electionRowspan": 4,
+    "rows": [
+      {"year": "1974†", "house": "1974 c 308", "senate": "—", "notes": ""},
+      {"year": "1976†", "house": "1976 c 231", "senate": "—", "notes": ""},
+      {"year": "1978†", "house": "—", "senate": "1978 c 384", "notes": "Truncated. Approved March 30, 1978."},
+      {"year": "1980†", "house": "1980 c 152", "senate": "—", "notes": ""}
+    ]
+  },
+  {
+    "elections": "",
+    "electionRowspan": 1,
+    "rows": [
+      {"year": "1982", "house": "1982 c 17", "senate": "1982 c 6", "notes": ""}
+    ]
+  },
+  {
+    "elections": "1983-90",
+    "electionRowspan": 3,
+    "rows": [
+      {"year": "", "houseSenateShared": "1984 c 44 § 13", "notes": ""},
+      {"year": "1984†", "house": "1984 c 111", "senate": "—", "notes": "The three statutes were in conflict and only codified in part."},
+      {"year": "", "houseSenateShared": "1984 c 185 § 31", "notes": ""}
+    ]
+  },
+  {
+    "elections": "",
+    "electionRowspan": 1,
+    "rows": [
+      {"year": "1991", "house": "1991 (ex. 2) c 5", "senate": "1991 (ex. 2) c 3", "notes": "Enjoined in <i>Fischer v. State Bd. of Elections</i>, 879 S.W.2d 475 (Ky. 1994)."}
+    ]
+  },
+  {
+    "elections": "1992-94",
+    "electionRowspan": 3,
+    "rows": [
+      {"year": "1992*", "houseSenateShared": "1992 c 369", "notes": ""},
+      {"year": "1994*", "house": "—", "senate": "1994 c 497", "notes": ""},
+      {"year": "1996", "house": "1996 c 1", "senate": "1996 c 2", "notes": ""}
+    ]
+  },
+  {
+    "elections": "1996-2000",
+    "electionRowspan": 1,
+    "rows": [
+      {"year": "2000*", "house": "—", "senate": "2000 c 325", "notes": ""}
+    ]
+  },
+  {
+    "elections": "2002-12",
+    "electionRowspan": 1,
+    "rows": [
+      {"year": "2002", "house": "2002 c 1", "senate": "—", "notes": "Enjoined in <i>Brown v. Ky. Legis. Rsch. Comm'n</i>, 966 F. Supp. 2d 709 (Ky. 2013)."}
+    ]
+  },
+  {
+    "elections": "2014-20",
+    "electionRowspan": 1,
+    "rows": [
+      {"year": "2013", "houseSenateShared": "2013 (ex. 1) c 1", "notes": ""}
+    ]
+  },
+  {
+    "elections": "2022-present",
+    "electionRowspan": 1,
+    "rows": [
+      {"year": "2022", "house": "2022 c 7", "senate": "2022 c 9", "notes": ""}
+    ]
+  }
+]
