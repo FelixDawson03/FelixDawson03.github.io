@@ -27,13 +27,13 @@
           const isFirst = i === 0;
           const hasShared = r.hasOwnProperty('houseSenateShared');
           rows += `<tr>
-            ${isFirst ? `<td rowspan="${group.electionRowspan}">${group.elections}</td>` : ''}
-            <td style="white-space:nowrap;">${r.year}</td>
-            ${hasShared
-              ? `<td colspan="2" style="text-align:center;white-space:nowrap;">${r.houseSenateShared}</td>`
-              : `<td style="white-space:nowrap;">${r.house}</td><td style="white-space:nowrap;">${r.senate}</td>`
-            }
-            ${isFirst ? `<td rowspan="${group.electionRowspan}">${r.notes}</td>` : ''}
+              ${isFirst ? `<td rowspan="${group.electionRowspan}">${group.elections}</td>` : ''}
+              ${r.yearRowspan !== 0 ? `<td rowspan="${r.yearRowspan}" style="white-space:nowrap;">${r.year}</td>` : ''}
+              ${hasShared
+                ? `<td colspan="2" style="text-align:center;white-space:nowrap;">${r.houseSenateShared}</td>`
+                : `<td style="white-space:nowrap;">${r.house}</td><td style="white-space:nowrap;">${r.senate}</td>`
+              }
+              ${isFirst ? `<td rowspan="${group.electionRowspan}">${r.notes}</td>` : ''}
           </tr>`;
         });
       });
