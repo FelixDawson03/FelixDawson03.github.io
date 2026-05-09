@@ -16,7 +16,7 @@
     .then(r => r.text())
     .then(html => {
       injectHTML(document.getElementById('nav-placeholder'), html);
-      return fetch('/includes/partyswitchers.json');
+      return fetch('/includes/reapportionment.json');
     })
     .then(r => r.json())
     .then(data => {
