@@ -86,40 +86,40 @@
     "electionRowspan": 4,
     "rows": [
       {"year": "1982", "yearRowspan": 1, "house": "1982 c 17", "senate": "1982 c 6", "notes": ""},
-      {"year": "1984†", "yearRowspan": 3, "house": "1984 c 44 § 13", "senate": "—", "notes": ""},
-      {"year": "", "yearRowspan": 0, "house": "1984 c 111", "senate": "—", "notes": "The three statutes were in conflict and only codified in part."},
-      {"year": "", "yearRowspan": 0, "house": "1984 c 185 § 31", "senate": "—", "notes": ""}
+      {"year": "1984†", "yearRowspan": 3, "house": "<a href=\"/kentuckypolitics/redistricting/1984_H_1.pdf\" download>1984 c 44 § 13</a>", "senate": "—", "notes": ""},
+      {"year": "", "yearRowspan": 0, "house": "<a href=\"/kentuckypolitics/redistricting/1984_H_2.pdf\" download>1984 c 111</a>", "senate": "—", "notes": "The three statutes were in conflict and only codified in part."},
+      {"year": "", "yearRowspan": 0, "house": "<a href=\"/kentuckypolitics/redistricting/1984_H_3.pdf\" download>1984 c 185 § 31</a>", "senate": "—", "notes": ""}
     ]
   },
   {
     "elections": "1992-94",
     "electionRowspan": 3,
     "rows": [
-      {"year": "1991", "yearRowspan": 1, "house": "1991 (ex. 2) c 5", "senate": "1991 (ex. 2) c 3", "notes": "Enjoined in <i>Fischer v. State Bd. of Elections</i>, 879 S.W.2d 475 (Ky. 1994)."},
-      {"year": "1992*", "yearRowspan": 1, "houseSenateShared": "1992 c 369", "notes": ""},
-      {"year": "1994*", "yearRowspan": 1, "house": "—", "senate": "1994 c 497", "notes": ""}
+      {"year": "1991", "yearRowspan": 1, "house": "<a href=\"/kentuckypolitics/redistricting/1991_H.pdf\" download>1991 (ex. 2) c 5</a>", "senate": "<a href=\"/kentuckypolitics/redistricting/1991_S.pdf\" download>1991 (ex. 2) c 3</a>", "notes": "Enjoined in <i>Fischer v. State Bd. of Elections</i>, 879 S.W.2d 475 (Ky. 1994)."},
+      {"year": "1992*", "yearRowspan": 1, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1992_HS.pdf\" download>1992 c 369</a>", "notes": ""},
+      {"year": "1994*", "yearRowspan": 1, "house": "—", "senate": "<a href=\"/kentuckypolitics/redistricting/1994_S.pdf\" download>1994 c 497</a>", "notes": ""}
     ]
   },
   {
     "elections": "1996-2000",
     "electionRowspan": 2,
     "rows": [
-      {"year": "1996", "yearRowspan": 1, "house": "1996 c 1", "senate": "1996 c 2", "notes": ""},
-      {"year": "2000*", "yearRowspan": 1, "house": "—", "senate": "2000 c 325", "notes": ""}
+      {"year": "1996", "yearRowspan": 1, "house": "<a href=\"/kentuckypolitics/redistricting/1996_H.pdf\" download>1996 c 1</a>", "senate": "<a href=\"/kentuckypolitics/redistricting/1996_S.pdf\" download>1996 c 2</a>", "notes": ""},
+      {"year": "2000*", "yearRowspan": 1, "house": "—", "senate": "<a href=\"/kentuckypolitics/redistricting/2000_S.pdf\" download>2000 c 325</a>", "notes": ""}
     ]
   },
   {
     "elections": "2002-12",
     "electionRowspan": 1,
     "rows": [
-      {"year": "2002", "yearRowspan": 1, "houseSenateShared": "2002 c 1", "notes": "Enjoined in <i>Brown v. Ky. Legis. Rsch. Comm'n</i>, 966 F. Supp. 2d 709 (Ky. 2013)."}
+      {"year": "2002", "yearRowspan": 1, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/2002_HS.pdf\" download>2002 c 1</a>", "notes": "Enjoined in <i>Brown v. Ky. Legis. Rsch. Comm'n</i>, 966 F. Supp. 2d 709 (Ky. 2013)."}
     ]
   },
   {
     "elections": "2014-20",
     "electionRowspan": 1,
     "rows": [
-      {"year": "2013", "yearRowspan": 1, "houseSenateShared": "2013 (ex. 1) c 1", "notes": ""}
+      {"year": "2013", "yearRowspan": 1, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/2013_HS.pdf\" download>2013 (ex. 1) c 1</a>", "notes": ""}
     ]
   },
   {
