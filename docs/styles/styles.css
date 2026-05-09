@@ -154,14 +154,18 @@ embed {
     vertical-align: top;
 }
 
+.DataTable tr.RowEven {
+    background-color: #faf3e0;
+}
+
+.DataTable tr.RowOdd {
+    background-color: #fdf6e3;
+}
+
 .DataTable th {
     background-color: #f0e6cc;
     font-weight: bold;
     color: #3a2209;
-}
-
-.DataTable tr:nth-child(even) {
-    background-color: #faf3e0;
 }
 
 /* ===================================================================
