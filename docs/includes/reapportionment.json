@@ -3,7 +3,7 @@
     "elections": "1851-59",
     "electionRowspan": 1,
     "rows": [
-      {"year": "1851", "yearRowspan": 1, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1851_HS.pdf\" download>1850-51 c 392</a>", "notespan": 1, "notes": ""}
+      {"year": "1851", "yearRowspan": 1, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1851_HS.pdf\" download>1850-51 c 392</a>", "notespan": 1, "notes": "All 38 senators were elected in 1851. Following the election, terms were assigned by lot as follows: (1853 and 1857: 5, 7, 12, 13, 14, 18, 19, 20, 21, 23, 27, 29, 31, 32, 33, 34, 35, 36, 38; 1855 and 1859: 1, 2, 3, 4, 6, 8, 9, 10, 11, 15, 16, 17, 22, 24, 25, 26, 28, 30, 37.)"}
     ]
   },
   {
@@ -78,7 +78,7 @@
       {"year": "1974†", "yearRowspan": 1, "house": "<a href=\"/kentuckypolitics/redistricting/1974_H.pdf\" download>1974 c 308</a>", "senate": "—", "notespan": 1, "notes": ""},
       {"year": "1976†", "yearRowspan": 1, "house": "<a href=\"/kentuckypolitics/redistricting/1976_H.pdf\" download>1976 c 231</a>", "senate": "—", "notespan": 1, "notes": ""},
       {"year": "1978†", "yearRowspan": 2, "house": "<a href=\"/kentuckypolitics/redistricting/1978_H.pdf\" download>1978 c 87</a>", "senate": "—", "notespan": 1, "notes": ""},
-      {"year": "", "yearRowspan": 0, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1978_HS.pdf\" download>1978 c 384</a>", "notespan": 1, "notes": "Truncated. Approved March 30, 1978."},
+      {"year": "", "yearRowspan": 0, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1978_HS.pdf\" download>1978 c 384</a>", "notespan": 1, "notes": "Chapter 384 was a long omnibus bill which was approved March 30, 1978. I have truncated it to only the redistricting portion."},
       {"year": "1980†", "yearRowspan": 1, "house": "<a href=\"/kentuckypolitics/redistricting/1980_H.pdf\" download>1980 c 152</a>", "senate": "—", "notespan": 1, "notes": ""}
     ]
   },
