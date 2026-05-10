@@ -10,7 +10,7 @@
     "elections": "1861-65",
     "electionRowspan": 2,
     "rows": [
-      {"year": "1860", "yearRowspan": 2, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1860_HS_1.pdf\" download>1859-60 c 821</a>", "notespan": 2, "notes": "The statutes must be read as a pair: the second amended the first."},
+      {"year": "1860", "yearRowspan": 2, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1860_HS_1.pdf\" download>1859-60 c 821</a>", "notespan": 2, "notes": "The statutes must be read as a pair: the second amended the first. The act does not establish a senate election schedule. The following was adopted by resolution after the 1861 elections: (1861 and 1865: 7, 8, 9, 10, 14, 15, 17, 19, 20, 21, 22, 24, 25, 27, 29, 31, 32, 34, 35; 1863: 1, 2, 3, 4, 5, 6, 11, 12, 13, 16, 18, 23, 26, 28, 30, 33, 36, 37, 38.)"},
       {"year": "", "yearRowspan": 0, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1860_HS_2.pdf\" download>1859-60 c 1325</a>", "notespan": 0, "notes": ""}
     ]
   },
