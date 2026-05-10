@@ -18,31 +18,31 @@
     "elections": "1867-73",
     "electionRowspan": 1,
     "rows": [
-      {"year": "1867", "yearRowspan": 1, "houseSenateShared": "1867 adj c 1774", "notes": ""}
+      {"year": "1867", "yearRowspan": 1, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1867_HS.pdf\" download>1867 adj c 1774</a>", "notes": ""}
     ]
   },
   {
     "elections": "1875-91",
     "electionRowspan": 3,
     "rows": [
-      {"year": "1874", "yearRowspan": 2, "houseSenateShared": "1873-74 c 325", "notes": "The statutes must be read as a pair: the second amended the first."},
-      {"year": "", "yearRowspan": 0, "houseSenateShared": "1873-74 c 586", "notes": ""},
-      {"year": "1890*", "yearRowspan": 1, "house": "—", "senate": "1889-90 c 1343", "notes": ""}
+      {"year": "1874", "yearRowspan": 2, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1874_HS_1.pdf\" download>1873-74 c 325</a>", "notes": "The statutes must be read as a pair: the second amended the first."},
+      {"year": "", "yearRowspan": 0, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1874_HS_2.pdf\" download>1873-74 c 586</a>", "notes": ""},
+      {"year": "1890*", "yearRowspan": 1, "house": "—", "senate": "<a href=\"/kentuckypolitics/redistricting/1890_S.pdf\" download>1889-90 c 1343</a>", "notes": ""}
     ]
   },
   {
     "elections": "1893-1917",
     "electionRowspan": 2,
     "rows": [
-      {"year": "1893", "yearRowspan": 1, "house": "1891-93 c 193", "senate": "1891-93 c 235", "notes": ""},
-      {"year": "1914*", "yearRowspan": 1, "house": "—", "senate": "1914 c 50", "notes": ""}
+      {"year": "1893", "yearRowspan": 1, "house": "<a href=\"/kentuckypolitics/redistricting/1893_H.pdf\" download>1891-93 c 193</a>", "senate": "<a href=\"/kentuckypolitics/redistricting/1893_S.pdf\" download>1891-93 c 235</a>", "notes": ""},
+      {"year": "1914*", "yearRowspan": 1, "house": "—", "senate": "<a href=\"/kentuckypolitics/redistricting/1914_S.pdf\" download>1914 c 50</a>", "notes": ""}
     ]
   },
   {
     "elections": "1919-41",
     "electionRowspan": 1,
     "rows": [
-      {"year": "1918", "yearRowspan": 1, "house": "1918 c 45", "senate": "1918 c 3", "notes": ""}
+      {"year": "1918", "yearRowspan": 1, "house": "<a href=\"/kentuckypolitics/redistricting/1918_H.pdf\" download>1918 c 45</a>", "senate": "<a href=\"/kentuckypolitics/redistricting/1918_S.pdf\" download>1918 c 3</a>", "notes": ""}
     ]
   },
   {
