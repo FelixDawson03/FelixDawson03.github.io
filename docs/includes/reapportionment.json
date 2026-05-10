@@ -67,7 +67,7 @@
     "elections": "1971",
     "electionRowspan": 1,
     "rows": [
-      {"year": "1971", "yearRowspan": 1, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1971_HS.pdf\" download>1971 (ex. 1) c 2</a>", "notespan": 1, "notes": "Enjoined in <i>Hensley v. Wood</i>, 329 F. Supp. 787 (E.D. Ky. 1971)."}
+      {"year": "1971", "yearRowspan": 1, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1971_HS.pdf\" download>1971 (ex. 1) c 2</a>", "notespan": 1, "notes": "Enjoined in <i>Hensley v. Wood</i>, <a href=\"https://web.archive.org/web/20220808204041/https://law.justia.com/cases/federal/district-courts/FSupp/329/787/2596183/\">329 F. Supp. 787</a> (E.D. Ky. 1971)."}
     ]
   },
   {
@@ -98,7 +98,7 @@
     "elections": "1992-94",
     "electionRowspan": 3,
     "rows": [
-      {"year": "1991", "yearRowspan": 1, "house": "<a href=\"/kentuckypolitics/redistricting/1991_H.pdf\" download>1991 (ex. 2) c 5</a>", "senate": "<a href=\"/kentuckypolitics/redistricting/1991_S.pdf\" download>1991 (ex. 2) c 3</a>", "notespan": 1, "notes": "Enjoined in <i>Fischer v. State Bd. of Elections</i>, 879 S.W.2d 475 (Ky. 1994)."},
+      {"year": "1991", "yearRowspan": 1, "house": "<a href=\"/kentuckypolitics/redistricting/1991_H.pdf\" download>1991 (ex. 2) c 5</a>", "senate": "<a href=\"/kentuckypolitics/redistricting/1991_S.pdf\" download>1991 (ex. 2) c 3</a>", "notespan": 1, "notes": "Enjoined in <i>Fischer v. State Bd. of Elections</i>, <a href=\"https://web.archive.org/web/20220808080747/https://law.justia.com/cases/kentucky/supreme-court/1994/93-sc-807-tg-1.html\">879 S.W.2d 475</a> (Ky. 1994)."},
       {"year": "1992*", "yearRowspan": 1, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1992_HS.pdf\" download>1992 c 369</a>", "notespan": 1, "notes": ""},
       {"year": "1994*", "yearRowspan": 1, "house": "—", "senate": "<a href=\"/kentuckypolitics/redistricting/1994_S.pdf\" download>1994 c 497</a>", "notespan": 1, "notes": ""}
     ]
@@ -115,7 +115,7 @@
     "elections": "2002-12",
     "electionRowspan": 1,
     "rows": [
-      {"year": "2002", "yearRowspan": 1, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/2002_HS.pdf\" download>2002 c 1</a>", "notespan": 1, "notes": "Enjoined in <i>Brown v. Ky. Legis. Rsch. Comm'n</i>, 966 F. Supp. 2d 709 (Ky. 2013)."}
+      {"year": "2002", "yearRowspan": 1, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/2002_HS.pdf\" download>2002 c 1</a>", "notespan": 1, "notes": "Enjoined in <i>Brown v. Ky. Legis. Rsch. Comm'n</i>, <a href=\"https://web.archive.org/web/20260510013555/https://www.courtlistener.com/opinion/8727669/brown-v-kentucky-legislative-research-commission/\">966 F. Supp. 2d 709</a> (Ky. 2013)."}
     ]
   },
   {
