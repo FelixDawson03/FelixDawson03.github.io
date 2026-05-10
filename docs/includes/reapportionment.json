@@ -77,16 +77,16 @@
       {"year": "1972", "yearRowspan": 1, "houseSenateShared": "1972 (ex. 1) c 6", "notes": ""},
       {"year": "1974†", "yearRowspan": 1, "house": "1974 c 308", "senate": "—", "notes": ""},
       {"year": "1976†", "yearRowspan": 1, "house": "1976 c 231", "senate": "—", "notes": ""},
-      {"year": "1978†", "yearRowspan": 2, "house": "1978 c 87", "senate": "—", "notes": ""},
-      {"year": "", "yearRowspan": 0, "houseSenateShared": "1978 c 384", "notes": "Truncated. Approved March 30, 1978."},
-      {"year": "1980†", "yearRowspan": 1, "house": "1980 c 152", "senate": "—", "notes": ""}
+      {"year": "1978†", "yearRowspan": 2, "house": "<a href=\"/kentuckypolitics/redistricting/1978_H.pdf\" download>1978 c 87</a>", "senate": "—", "notes": ""},
+      {"year": "", "yearRowspan": 0, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1978_HSx.pdf\" download>1978 c 384</a>", "notes": "Truncated. Approved March 30, 1978."},
+      {"year": "1980†", "yearRowspan": 1, "house": "<a href=\"/kentuckypolitics/redistricting/1980_H.pdf\" download>1980 c 152</a>", "senate": "—", "notes": ""}
     ]
   },
   {
     "elections": "1983-90",
     "electionRowspan": 6,
     "rows": [
-      {"year": "1982", "yearRowspan": 1, "house": "1982 c 17", "senate": "1982 c 6", "notes": ""},
+      {"year": "1982", "yearRowspan": 1, "house": "<a href=\"/kentuckypolitics/redistricting/1982_H.pdf\" download>1982 c 17</a>", "senate": "<a href=\"/kentuckypolitics/redistricting/1982_S.pdf\" download>1982 c 6</a>", "notes": ""},
       {"year": "1984†", "yearRowspan": 3, "house": "<a href=\"/kentuckypolitics/redistricting/1984_H_1.pdf\" download>1984 c 44 § 13</a>", "senate": "—", "notes": ""},
       {"year": "", "yearRowspan": 0, "house": "<a href=\"/kentuckypolitics/redistricting/1984_H_2.pdf\" download>1984 c 111</a>", "senate": "—", "notes": "The three statutes were in conflict and only codified in part."},
       {"year": "", "yearRowspan": 0, "house": "<a href=\"/kentuckypolitics/redistricting/1984_H_3.pdf\" download>1984 c 185 § 31</a>", "senate": "—", "notes": ""},
