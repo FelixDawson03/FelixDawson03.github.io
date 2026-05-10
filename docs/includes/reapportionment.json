@@ -10,8 +10,8 @@
     "elections": "1861-65",
     "electionRowspan": 2,
     "rows": [
-      {"year": "1860", "yearRowspan": 2, "houseSenateShared": "1859-60 c 821", "notes": "The statutes must be read as a pair: the second amended the first."},
-      {"year": "", "yearRowspan": 0, "houseSenateShared": "1859-60 c 1325", "notes": ""}
+      {"year": "1860", "yearRowspan": 2, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1860_HS_1.pdf\" download>1859-60 c 821</a>", "notes": "The statutes must be read as a pair: the second amended the first."},
+      {"year": "", "yearRowspan": 0, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1860_HS_2.pdf\" download>1859-60 c 1325</a>", "notes": ""}
     ]
   },
   {
@@ -26,7 +26,7 @@
     "electionRowspan": 3,
     "rows": [
       {"year": "1874", "yearRowspan": 2, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1874_HS_1.pdf\" download>1873-74 c 325</a>", "notes": "The statutes must be read as a pair: the second amended the first."},
-      {"year": "", "yearRowspan": 0, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1874_HS_2.pdf\" download>1873-74 c 586</a>", "notes": ""},
+      {"year": "", "yearRowspan": 0, "house": "—", "senate": "<a href=\"/kentuckypolitics/redistricting/1874_HS_2.pdf\" download>1873-74 c 586</a>", "notes": ""},
       {"year": "1890*", "yearRowspan": 1, "house": "—", "senate": "<a href=\"/kentuckypolitics/redistricting/1890_S.pdf\" download>1889-90 c 1343</a>", "notes": ""}
     ]
   },
