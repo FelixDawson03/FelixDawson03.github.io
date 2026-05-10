@@ -3,14 +3,14 @@
     "elections": "1851-59",
     "electionRowspan": 1,
     "rows": [
-      {"year": "1851", "yearRowspan": 1, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1851_HS.pdf\" download>1850-51 c 392</a>", "notespan": 1, "notes": "All 38 senators were elected in 1851. Following the election, terms were assigned by lot as follows: (1853 and 1857: 5, 7, 12, 13, 14, 18, 19, 20, 21, 23, 27, 29, 31, 32, 33, 34, 35, 36, 38; 1855 and 1859: 1, 2, 3, 4, 6, 8, 9, 10, 11, 15, 16, 17, 22, 24, 25, 26, 28, 30, 37.)"}
+      {"year": "1851", "yearRowspan": 1, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1851_HS.pdf\" download>1850-51 c 392</a>", "notespan": 1, "notes": "All 38 senators were elected in 1851. Following the election, terms were assigned by lot as follows: (elected 1853 and 1857: 5, 7, 12, 13, 14, 18, 19, 20, 21, 23, 27, 29, 31, 32, 33, 34, 35, 36, 38; elected 1855 and 1859: 1, 2, 3, 4, 6, 8, 9, 10, 11, 15, 16, 17, 22, 24, 25, 26, 28, 30, 37.)"}
     ]
   },
   {
     "elections": "1861-65",
     "electionRowspan": 2,
     "rows": [
-      {"year": "1860", "yearRowspan": 2, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1860_HS_1.pdf\" download>1859-60 c 821</a>", "notespan": 2, "notes": "The statutes must be read as a pair: the second amended the first. The act does not establish a senate election schedule. The following was adopted by resolution after the 1861 elections: (1861 and 1865: 7, 8, 9, 10, 14, 15, 17, 19, 20, 21, 22, 24, 25, 27, 29, 31, 32, 34, 35; 1863: 1, 2, 3, 4, 5, 6, 11, 12, 13, 16, 18, 23, 26, 28, 30, 33, 36, 37, 38.)"},
+      {"year": "1860", "yearRowspan": 2, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1860_HS_1.pdf\" download>1859-60 c 821</a>", "notespan": 2, "notes": "The statutes must be read as a pair: the second amended the first. The act does not establish a senate election schedule. The following was adopted by resolution after the 1861 elections: (elected 1861 and 1865: 7, 8, 9, 10, 14, 15, 17, 19, 20, 21, 22, 24, 25, 27, 29, 31, 32, 34, 35; elected 1863: 1, 2, 3, 4, 5, 6, 11, 12, 13, 16, 18, 23, 26, 28, 30, 33, 36, 37, 38.)"},
       {"year": "", "yearRowspan": 0, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1860_HS_2.pdf\" download>1859-60 c 1325</a>", "notespan": 0, "notes": ""}
     ]
   },
@@ -34,7 +34,7 @@
     "elections": "1893-1917",
     "electionRowspan": 2,
     "rows": [
-      {"year": "1893", "yearRowspan": 1, "house": "<a href=\"/kentuckypolitics/redistricting/1893_H.pdf\" download>1891-93 c 193</a>", "senate": "<a href=\"/kentuckypolitics/redistricting/1893_S.pdf\" download>1891-93 c 235</a>", "notespan": 1, "notes": ""},
+      {"year": "1893", "yearRowspan": 1, "house": "<a href=\"/kentuckypolitics/redistricting/1893_H.pdf\" download>1891-93 c 193</a>", "senate": "<a href=\"/kentuckypolitics/redistricting/1893_S.pdf\" download>1891-93 c 235</a>", "notespan": 1, "notes": "All 38 senators were elected in 1893. Following the election, terms were assigned by lot. Odd-numbered districts were elected in 1895, 1899, etc. Even-numbered districts were elected in 1897, 1901, etc."},
       {"year": "1914*", "yearRowspan": 1, "house": "—", "senate": "<a href=\"/kentuckypolitics/redistricting/1914_S.pdf\" download>1914 c 50</a>", "notespan": 1, "notes": ""}
     ]
   },
