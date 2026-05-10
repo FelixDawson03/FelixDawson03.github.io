@@ -36,7 +36,7 @@
                 ? `<td colspan="2" style="text-align:center;white-space:nowrap;">${r.houseSenateShared}</td>`
                 : `<td style="white-space:nowrap;">${r.house}</td><td style="white-space:nowrap;">${r.senate}</td>`
               }
-              ${isFirst ? `<td rowspan="${group.electionRowspan}">${r.notes}</td>` : ''}
+              ${r.notespan !== 0 ? `<td rowspan="${r.notespan}">${r.notes}</td>` : ''}
           </tr>`;
         });
       });
