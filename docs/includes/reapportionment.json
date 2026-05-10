@@ -10,8 +10,8 @@
     "elections": "1861-65",
     "electionRowspan": 2,
     "rows": [
-      {"year": "1860", "yearRowspan": 2, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1860_HS_1.pdf\" download>1859-60 c 821</a>", "notespan": 1, "notes": "The statutes must be read as a pair: the second amended the first."},
-      {"year": "", "yearRowspan": 0, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1860_HS_2.pdf\" download>1859-60 c 1325</a>", "notespan": 1, "notes": ""}
+      {"year": "1860", "yearRowspan": 2, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1860_HS_1.pdf\" download>1859-60 c 821</a>", "notespan": 2, "notes": "The statutes must be read as a pair: the second amended the first."},
+      {"year": "", "yearRowspan": 0, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1860_HS_2.pdf\" download>1859-60 c 1325</a>", "notespan": 0, "notes": ""}
     ]
   },
   {
@@ -25,8 +25,8 @@
     "elections": "1875-91",
     "electionRowspan": 3,
     "rows": [
-      {"year": "1874", "yearRowspan": 2, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1874_HS_1.pdf\" download>1873-74 c 325</a>", "notespan": 1, "notes": "The statutes must be read as a pair: the second amended the first."},
-      {"year": "", "yearRowspan": 0, "house": "—", "senate": "<a href=\"/kentuckypolitics/redistricting/1874_HS_2.pdf\" download>1873-74 c 586</a>", "notespan": 1, "notes": ""},
+      {"year": "1874", "yearRowspan": 2, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1874_HS_1.pdf\" download>1873-74 c 325</a>", "notespan": 2, "notes": "The statutes must be read as a pair: the second amended the first."},
+      {"year": "", "yearRowspan": 0, "house": "—", "senate": "<a href=\"/kentuckypolitics/redistricting/1874_HS_2.pdf\" download>1873-74 c 586</a>", "notespan": 0, "notes": ""},
       {"year": "1890*", "yearRowspan": 1, "house": "—", "senate": "<a href=\"/kentuckypolitics/redistricting/1890_S.pdf\" download>1889-90 c 1343</a>", "notespan": 1, "notes": ""}
     ]
   },
@@ -59,8 +59,8 @@
     "rows": [
       {"year": "1963", "yearRowspan": 1, "house": "<a href=\"/kentuckypolitics/redistricting/1963_H.pdf\" download>1963 (ex. 1) c 3</a>", "senate": "<a href=\"/kentuckypolitics/redistricting/1963_S.pdf\" download>1963 (ex. 1) c 2</a>", "notespan": 1, "notes": ""},
       {"year": "1964*", "yearRowspan": 1, "house": "—", "senate": "<a href=\"/kentuckypolitics/redistricting/1964_S.pdf\" download>1964 c 15</a>", "notespan": 1, "notes": ""},
-      {"year": "1966*", "yearRowspan": 2, "house": "<a href=\"/kentuckypolitics/redistricting/1966_H_1.pdf\" download>1966 c 166</a>", "senate": "—", "notespan": 1, "notes": ""},
-      {"year": "", "yearRowspan": 0, "house": "<a href=\"/kentuckypolitics/redistricting/1966_H_2.pdf\" download>1966 c 196</a>", "senate": "—", "notespan": 1, "notes": ""}
+      {"year": "1966*", "yearRowspan": 2, "house": "<a href=\"/kentuckypolitics/redistricting/1966_H_1.pdf\" download>1966 c 166</a>", "senate": "—", "notespan": 2, "notes": ""},
+      {"year": "", "yearRowspan": 0, "house": "<a href=\"/kentuckypolitics/redistricting/1966_H_2.pdf\" download>1966 c 196</a>", "senate": "—", "notespan": 0, "notes": ""}
     ]
   },
   {
@@ -87,11 +87,11 @@
     "electionRowspan": 6,
     "rows": [
       {"year": "1982", "yearRowspan": 1, "house": "<a href=\"/kentuckypolitics/redistricting/1982_H.pdf\" download>1982 c 17</a>", "senate": "<a href=\"/kentuckypolitics/redistricting/1982_S.pdf\" download>1982 c 6</a>", "notespan": 1, "notes": ""},
-      {"year": "1984†", "yearRowspan": 3, "house": "<a href=\"/kentuckypolitics/redistricting/1984_H_1.pdf\" download>1984 c 44 § 13</a>", "senate": "—", "notespan": 1, "notes": ""},
-      {"year": "", "yearRowspan": 0, "house": "<a href=\"/kentuckypolitics/redistricting/1984_H_2.pdf\" download>1984 c 111</a>", "senate": "—", "notespan": 1, "notes": "The three statutes were in conflict and only codified in part."},
-      {"year": "", "yearRowspan": 0, "house": "<a href=\"/kentuckypolitics/redistricting/1984_H_3.pdf\" download>1984 c 185 § 31</a>", "senate": "—", "notespan": 1, "notes": ""},
-      {"year": "1986†", "yearRowspan": 2, "house": "<a href=\"/kentuckypolitics/redistricting/1986_H.pdf\" download>1986 c 21</a>", "senate": "—", "notespan": 1, "notes": ""},
-      {"year": "", "yearRowspan": 0, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1986_HS.pdf\" download>1986 c 427</a>", "notespan": 1, "notes": ""}
+      {"year": "1984†", "yearRowspan": 3, "house": "<a href=\"/kentuckypolitics/redistricting/1984_H_1.pdf\" download>1984 c 44 § 13</a>", "senate": "—", "notespan": 3, "notes": "The three statutes were in conflict and only codified in part."},
+      {"year": "", "yearRowspan": 0, "house": "<a href=\"/kentuckypolitics/redistricting/1984_H_2.pdf\" download>1984 c 111</a>", "senate": "—", "notespan": 0, "notes": ""},
+      {"year": "", "yearRowspan": 0, "house": "<a href=\"/kentuckypolitics/redistricting/1984_H_3.pdf\" download>1984 c 185 § 31</a>", "senate": "—", "notespan": 0, "notes": ""},
+      {"year": "1986†", "yearRowspan": 2, "house": "<a href=\"/kentuckypolitics/redistricting/1986_H.pdf\" download>1986 c 21</a>", "senate": "—", "notespan": 2, "notes": ""},
+      {"year": "", "yearRowspan": 0, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1986_HS.pdf\" download>1986 c 427</a>", "notespan": 0, "notes": ""}
     ]
   },
   {
