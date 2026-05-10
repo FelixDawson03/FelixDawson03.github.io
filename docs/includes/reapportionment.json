@@ -49,18 +49,18 @@
     "elections": "1943-61",
     "electionRowspan": 2,
     "rows": [
-      {"year": "1942", "yearRowspan": 1, "house": "1942 (ex. 1) c 2", "senate": "1942 (ex. 1) c 1", "notes": ""},
-      {"year": "1946*", "yearRowspan": 1, "house": "1946 c 119", "senate": "1946 c 82", "notes": ""}
+      {"year": "1942", "yearRowspan": 1, "house": "<a href=\"/kentuckypolitics/redistricting/1942_H.pdf\" download>1942 (ex. 1) c 2</a>", "senate": "<a href=\"/kentuckypolitics/redistricting/1942_S.pdf\" download>1942 (ex. 1) c 1</a>", "notes": ""},
+      {"year": "1946*", "yearRowspan": 1, "house": "<a href=\"/kentuckypolitics/redistricting/1946_H.pdf\" download>1946 c 119</a>", "senate": "<a href=\"/kentuckypolitics/redistricting/1946_S.pdf\" download>1946 c 82", "notes": ""}
     ]
   },
   {
     "elections": "1963-69",
     "electionRowspan": 4,
     "rows": [
-      {"year": "1963", "yearRowspan": 1, "house": "1963 (ex. 1) c 3", "senate": "1963 (ex. 1) c 2", "notes": ""},
-      {"year": "1964*", "yearRowspan": 1, "house": "—", "senate": "1964 c 15", "notes": ""},
-      {"year": "1966*", "yearRowspan": 2, "house": "1966 c 166", "senate": "—", "notes": ""},
-      {"year": "", "yearRowspan": 0, "house": "1966 c 196", "senate": "—", "notes": ""}
+      {"year": "1963", "yearRowspan": 1, "house": "<a href=\"/kentuckypolitics/redistricting/1963_H.pdf\" download>1963 (ex. 1) c 3</a>", "senate": "<a href=\"/kentuckypolitics/redistricting/1963_S.pdf\" download>1963 (ex. 1) c 2</a>", "notes": ""},
+      {"year": "1964*", "yearRowspan": 1, "house": "—", "senate": "<a href=\"/kentuckypolitics/redistricting/1964_S.pdf\" download>1964 c 15</a>", "notes": ""},
+      {"year": "1966*", "yearRowspan": 2, "house": "<a href=\"/kentuckypolitics/redistricting/1966_H_1.pdf\" download>1966 c 166</a>", "senate": "—", "notes": ""},
+      {"year": "", "yearRowspan": 0, "house": "<a href=\"/kentuckypolitics/redistricting/1966_H_2.pdf\" download>1966 c 196</a>", "senate": "—", "notes": ""}
     ]
   },
   {
