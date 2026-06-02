@@ -90,14 +90,14 @@ embed {
   display: flex;
   align-items: flex-end;
   gap: 6px;
-  padding: 8px 0 0 0;
+  padding: 6px 0 0 0;
 }
 
 .tab {
   display: block;
   text-decoration: none;
-  padding: 8px 0;
-  width: 150px;
+  padding: 9px 0;
+  width: 160px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
