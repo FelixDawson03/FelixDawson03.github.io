@@ -1,3 +1,27 @@
+:root {
+  --color-accent:       #6b0f24;  /* burgundy red */
+  --color-accent-dark:  #3d0814;  /* darker accent — borders, hover */
+  --color-accent-deep:  #4a0818;  /* mid-dark — nav hover */
+
+  --color-warm-dark:    #2a1a08;  /* page bg */
+  --color-warm-mid:     #5c3a1e;  /* wrapper bg */
+  --color-warm-border:  #8b5e2e;  /* borders, dividers */
+  --color-warm-tan:     #c4a472;  /* left col bg, right sidebar border */
+  --color-warm-sand:    #c9b07a;  /* inactive tabs */
+  --color-warm-gold:    #c8a97a;  /* footer, credits */
+
+  --color-paper:        #fdf6e3;  /* right col, content bg */
+  --color-paper-mid:    #f0e6cc;  /* right sidebar bg, table rows */
+  --color-paper-light:  #f5e6d0;  /* site title, nav text */
+  --color-paper-warm:   #f0d8b0;  /* site subtitle */
+
+  --color-text-body:    #2e1a08; 
+  --color-text-dark:    #3a2209;  /* also wrapper border, credits bg */
+
+  --color-link:         #2a4a7a; 
+  --color-link-hover:   #1a3060; 
+}
+
 /* ===================================================================
    LAYOUT
    =================================================================== */
