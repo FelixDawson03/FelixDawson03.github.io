@@ -10,29 +10,31 @@
 </head>
 <body>
 <div id="nav-placeholder"></div>
-<div id="tabs-placeholder"></div>
 <div id="footer-placeholder"></div>
 <script>
   fetch('/includes/nav.html')
     .then(r => r.text())
     .then(html => {
       injectHTML(document.getElementById('nav-placeholder'), html);
-      document.getElementById('rightCol').innerHTML = `
-        <p><span class="PageHeading">Sample heading</span></p>
-        <hr class="PageDivider">
-        <p>Body text.</p>
-      `;
-    });
-
-  fetch('/includes/tabs.html')
+      document.getElementById('rightSidebar').style.display = 'none';
+      return fetch('/includes/tabs.html');
+    })
     .then(r => r.text())
-    .then(html => {
-      injectHTML(document.getElementById('tabs-placeholder'), html);
-      document.querySelectorAll('.tab').forEach(function(tab) {
+    .then(tabsHtml => {
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(tabsHtml, 'text/html');
+      doc.querySelectorAll('.tab').forEach(function(tab) {
         if (tab.getAttribute('href') === window.location.pathname) {
           tab.classList.add('active');
         }
       });
+      const activatedTabsHtml = doc.body.innerHTML;
+
+      document.getElementById('rightCol').innerHTML = activatedTabsHtml + `
+        <p><span class="PageHeading">Sample heading</span></p>
+        <hr class="PageDivider">
+        <p>Body text.</p>
+      `;
     });
 
   fetch('/includes/footer.html')
