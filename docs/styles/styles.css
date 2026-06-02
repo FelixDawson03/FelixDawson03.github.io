@@ -104,7 +104,6 @@ embed {
   cursor: pointer;
   background: #c9b07a;
   color: #8b5e2e;
-  border: 1px solid #8a6a30;
   border-bottom: none;
   border-radius: 5px 5px 0 0;
   clip-path: polygon(10px 0%, calc(100% - 10px) 0%, 100% 100%, 0% 100%);
