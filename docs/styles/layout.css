@@ -13,7 +13,7 @@
   --color-paper:        #fdf6e3;  /* right col, content bg */
   --color-paper-mid:    #f0e6cc;  /* right sidebar bg, table rows */
   --color-paper-light:  #f5e6d0;  /* site title, nav text */
-  --color-paper-warm:   #f0d8b0;  /* site subtitle */
+  --color-paper-warm:   #f0d8b0;  /* site subtitle (not currently used) */
 
   --color-text-body:    #2e1a08; 
   --color-text-dark:    #3a2209;  /* also wrapper border, credits bg */
