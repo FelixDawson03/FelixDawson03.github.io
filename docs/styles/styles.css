@@ -98,6 +98,7 @@ embed {
   text-decoration: none;
   padding: 8px 0;
   width: 150px;
+  margin-bottom: -1px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
@@ -124,7 +125,7 @@ embed {
 
 .tab-bar-wrapper {
   background: #8b5e2e;
-  margin: -29px -33px 29px;
+  margin: -29px -33px 24px;
   padding: 0px 33px 0;
 }
 
