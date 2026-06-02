@@ -127,6 +127,12 @@ embed {
   background: #d9c48e;
 }
 
+.tab-bar-wrapper {
+  background: #3b2a18;
+  margin: 0 -28px;
+  padding: 12px 28px 0;
+}
+
 .PageHeading {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 24px;
