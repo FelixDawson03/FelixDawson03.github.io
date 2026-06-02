@@ -91,7 +91,6 @@ embed {
   align-items: flex-end;
   gap: 4px;
   padding: 12px 0 0 0;
-  border-bottom: 1px solid #8a6a30;
 }
 
 .tab {
@@ -104,7 +103,7 @@ embed {
   font-size: 13px;
   cursor: pointer;
   background: #c9b07a;
-  color: #3a2a10;
+  color: #8b5e2e;
   border: 1px solid #8a6a30;
   border-bottom: none;
   border-radius: 5px 5px 0 0;
@@ -113,7 +112,6 @@ embed {
   z-index: 1;
   user-select: none;
   transition: background 0.12s;
-  margin-bottom: -1px;
 }
 
 .tab.active {
