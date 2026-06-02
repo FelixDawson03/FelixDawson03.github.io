@@ -91,7 +91,7 @@ embed {
   align-items: flex-end;
   gap: 4px;
   padding: 12px 0 0 0;
-  border-bottom: 1px solid #8a6a30;  /* the separator line */
+  border-bottom: 1px solid #8a6a30;
 }
 
 .tab {
@@ -113,11 +113,11 @@ embed {
   z-index: 1;
   user-select: none;
   transition: background 0.12s;
-  margin-bottom: -1px;  /* makes active tab overlap the border-bottom */
+  margin-bottom: -1px;
 }
 
 .tab.active {
-  background: #f5f0e0;  /* matches rightCol background — gap effect */
+  background: #fdf6e3;
   color: #111;
   font-weight: bold;
   z-index: 3;
