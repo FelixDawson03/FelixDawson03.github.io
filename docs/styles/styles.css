@@ -3,27 +3,27 @@
    =================================================================== */
 
 a:link, a:visited, a:active {
-    color: #2a4a7a;
+    color: var(--color-link);
     text-decoration: underline;
     font-weight: normal;
 }
 
 a:hover {
-    color: #1a3060;
+    color: var(--color-link-hover);
 }
 
 #nav a:link, #nav a:visited, #nav a:active {
-    color: #f5e6d0;
+    color: var(--color-paper-light);
     text-decoration: none;
 }
 
 #nav a:hover {
-    color: #fdf6e3;
+    color: var(--color-paper);
 }
 
 #bulletin-container {
     font-size: 11px;
-    color: #3a2209;
+    color: var(--color-text-dark);
     line-height: 1.8;
 }
 
@@ -31,15 +31,15 @@ a:hover {
     display: inline-block;
     margin-top: 6px;
     padding: 2px 8px;
-    background-color: #fdf6e3;
-    border: 1px solid #8b5e2e;
-    color: #2a4a7a;
+    background-color: var(--color-paper);
+    border: 1px solid var(--color-warm-border);
+    color: var(--color-link);
     text-decoration: none;
     font-size: 10px;
 }
 
 #bulletin-more:hover {
-    background-color: #f0e6cc;
+    background-color: var(--color-paper-mid);
     text-decoration: none;
 }
 
@@ -47,15 +47,15 @@ a:hover {
     display: inline-block;
     margin-top: 6px;
     padding: 2px 8px;
-    background-color: #fdf6e3;
-    border: 1px solid #8b5e2e;
-    color: #2a4a7a;
+    background-color: var(--color-paper);
+    border: 1px solid var(--color-warm-border);
+    color: var(--color-link);
     text-decoration: none;
     font-size: 10px;
 }
 
 #bulletin-full:hover {
-    background-color: #f0e6cc;
+    background-color: var(--color-paper-mid);
     text-decoration: none;
 }
 
@@ -102,8 +102,8 @@ embed {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
   cursor: pointer;
-  background: #c9b07a;
-  color: #8b5e2e;
+  background: var(--color-warm-sand);
+  color: var(--color-warm-border);
   clip-path: polygon(10px 0%, calc(100% - 10px) 0%, 100% 100%, 0% 100%);
   position: relative;
   z-index: 1;
@@ -112,18 +112,18 @@ embed {
 }
 
 .tab.active {
-  background: #fdf6e3;
+  background: var(--color-paper);
   color: #111;
   font-weight: bold;
   z-index: 3;
 }
 
 .tab:not(.active):hover {
-  background: #d9c48e;
+  background: var(--color-tab-hover);
 }
 
 .tab-bar-wrapper {
-  background: #8b5e2e;
+  background: var(--color-warm-border);
   margin: -29px -33px 24px;
   padding: 0px 18px 0;
 }
@@ -132,7 +132,7 @@ embed {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 24px;
     font-weight: bold;
-    color: #6b0f24;
+    color: var(--color-accent);
     display: block;
     clear: both;
 }
@@ -141,7 +141,7 @@ embed {
     font-family: Arial, Verdana, sans-serif;
     font-size: 9pt;
     font-style: italic;
-    color: #7a5230;
+    color: var(--color-subtitle);
     margin: 0 0 12px 0;
 }
 
@@ -149,27 +149,27 @@ embed {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 16px;
     font-weight: bold;
-    color: #3a2209;
-    border-bottom: 1px solid #c4a472;
+    color: var(--color-text-dark);
+    border-bottom: 1px solid var(--color-warm-tan);
     margin: 20px 0 8px 0;
     padding-bottom: 4px;
 }
 
 .PageDivider {
 	border: none;
-	border-top: 1px solid #c4a472;
+	border-top: 1px solid var(--color-warm-tan);
 	margin: 16px 0;
 }
 
 .OpeningLine {
-	color: #3a2209;
+	color: var(--color-text-dark);
 	font: 24px Georgia, "Times New Roman", Times, serif;
 	text-transform: uppercase;
 	letter-spacing: .06em;
 }
 
 .OpeningWords {
-	color: #3a2209;
+	color: var(--color-text-dark);
 	font-size: 18px;
 	text-transform: uppercase;
 	letter-spacing: .05em;
@@ -190,24 +190,24 @@ embed {
 }
 
 .DataTable th, .DataTable td {
-    border: 1px solid #c4a472;
+    border: 1px solid var(--color-warm-tan);
     padding: 4px 8px;
     text-align: left;
     vertical-align: top;
 }
 
 .DataTable tr.RowEven {
-    background-color: #fdf6e3;
+    background-color: var(--color-paper);
 }
 
 .DataTable tr.RowOdd {
-    background-color: #f0e6cc;
+    background-color: var(--color-paper-mid);
 }
 
 .DataTable th {
-    background-color: #f0e6cc;
+    background-color: var(--color-paper-mid);
     font-weight: bold;
-    color: #3a2209;
+    color: var(--color-text-dark);
 }
 
 /* ===================================================================
@@ -218,18 +218,18 @@ embed {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 13px;
 	font-weight: bold;
-	color: #6b0f24;
-	border-bottom: 1px solid #8b5e2e;
+	color: var(--color-accent);
+	border-bottom: 1px solid var(--color-warm-border);
 	margin-bottom: 6px;
 	padding-bottom: 3px;
 }
 
 .SidebarItem {
 	font-size: 11px;
-	color: #2e1a08;
+	color: var(--color-text-body);
 	margin-bottom: 8px;
 	line-height: 1.5;
-	border-bottom: 1px dotted #c4a472;
+	border-bottom: 1px dotted var(--color-warm-tan);
 	padding-bottom: 8px;
 }
 
@@ -238,8 +238,8 @@ embed {
 	font-size: 13px;
 	font-weight: bold;
 	font-style: italic;
-	color: #6b0f24;
-	border-bottom: 1px solid #c4a472;
+	color: var(--color-accent);
+	border-bottom: 1px solid var(--color-warm-tan);
 	margin-bottom: 10px;
 	padding-bottom: 4px;
 }
@@ -264,28 +264,28 @@ embed {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 20px;
     font-weight: bold;
-    color: #3a2209;
+    color: var(--color-text-dark);
     margin-bottom: 4px;
 }
 
 .DataDivider {
     border: none;
-    border-top: 1px solid #c4a472;
+    border-top: 1px solid var(--color-warm-tan);
     margin: 0 0 12px 0;
 }
 
 .DataSubheading {
     font-weight: bold;
     font-size: 10pt;
-    color: #2e1a08;
+    color: var(--color-text-body);
     margin: 12px 0 6px 0;
 }
 
 .DataRow {
     font-size: 10pt;
-    color: #2e1a08;
+    color: var(--color-text-body);
     padding: 3px 0;
-    border-bottom: 1px dotted #c4a472;
+    border-bottom: 1px dotted var(--color-warm-tan);
 }
 
 .DataLinks {
@@ -295,7 +295,7 @@ embed {
 
 .ProgressBar {
     width: 100%;
-    background-color: #c4a472;
+    background-color: var(--color-warm-tan);
     height: 6px;
     margin-top: 6px;
     box-sizing: border-box;
@@ -303,12 +303,12 @@ embed {
 
 .ProgressFill {
     height: 6px;
-    background-color: #6b0f24;
+    background-color: var(--color-accent);
 }
 
 .ProgressLabel {
     font-size: 9px;
-    color: #2e1a08;
+    color: var(--color-text-body);
     margin-top: 2px;
     text-align: right;
 }
@@ -320,28 +320,28 @@ embed {
 
 .FooterMenu {
 	font-size: 8pt;
-	color: #c8a97a;
+	color: var(--color-warm-gold);
 }
 
 .FooterMenu a:link, .FooterMenu a:visited, .FooterMenu a:active {
 	font-size: 8pt;
 	font-weight: normal;
-	color: #c8a97a;
+	color: var(--color-warm-gold);
 	text-decoration: none;
 }
 
 .FooterMenu a:hover {
-	color: #f5e6d0;
+	color: var(--color-paper-light);
 	text-decoration: underline;
 }
 
 a.DesignBy:link, a.DesignBy:visited, a.DesignBy:active {
 	font-weight: normal;
-	color: #c8a97a;
+	color: var(--color-warm-gold);
 	text-decoration: none;
 }
 
 a.DesignBy:hover {
-	color: #f5e6d0;
+	color: var(--color-paper-light);
 	text-decoration: underline;
 }
