@@ -186,7 +186,7 @@ body {
     padding: 8px 12px;
     background-color: var(--color-text-dark);
     border-top: 3px solid var(--color-warm-border);
-    color: var(--color-warm-sand);
+    color: var(--color-warm-gold);
     font-size: 9px;
     display: flex;
     justify-content: space-between;
@@ -194,7 +194,7 @@ body {
 }
 
 #credits a {
-	color: var(--color-warm-sand);
+	color: var(--color-warm-gold);
 }
 
 #footer-placeholder {
