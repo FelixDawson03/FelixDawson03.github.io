@@ -103,7 +103,6 @@ embed {
   font-size: 13px;
   cursor: pointer;
   background: var(--color-warm-sand);
-  color: var(--color-warm-border);
   clip-path: polygon(10px 0%, calc(100% - 10px) 0%, 100% 100%, 0% 100%);
   position: relative;
   z-index: 1;
@@ -113,7 +112,6 @@ embed {
 
 .tab.active {
   background: var(--color-paper);
-  color: #111;
   font-weight: bold;
   z-index: 3;
 }
@@ -126,6 +124,14 @@ embed {
   background: var(--color-warm-border);
   margin: -29px -33px 24px;
   padding: 0px 18px 0;
+}
+
+.tab:link, .tab:visited, .tab:active {
+  color: var(--color-warm-border);
+}
+
+.tab.active:link, .tab.active:visited, .tab.active:active {
+  color: var(--color-text-body);
 }
 
 .PageHeading {
