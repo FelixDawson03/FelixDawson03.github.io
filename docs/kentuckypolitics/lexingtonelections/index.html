@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <title>Lexington Elections — Felix Dawson</title>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="/styles/layout.css" />
+  <link rel="stylesheet" type="text/css" href="/styles/styles.css" />
+  <link rel="shortcut icon" href="/images/icon.png" />
+  <script src="/scripts/utils.js"></script>
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<div id="footer-placeholder"></div>
+<script>
+  fetch('/includes/nav.html')
+    .then(r => r.text())
+    .then(html => {
+      injectHTML(document.getElementById('nav-placeholder'), html);
+      document.getElementById('rightCol').innerHTML = `
+        <p><span class="PageHeading">Kentucky Politics</span></p>
+        <hr class="PageDivider">
+        <p>This page will we be home to various explainers about Kentucky politics and elections, eventually... For now, check out the election data which includes my district-level calculations for 2022, 2023 and 2024 so far.</p>
+
+        <div class="election-year">1931</div>
+        <table class="election-table">
+          <tr>
+            <th colspan="3" class="section-header">Primary election</th>
+            <th colspan="3" class="section-header">General election</th>
+          </tr>
+          <tr>
+            <td class="candidate">W. T. Congleton</td>
+            <td class="votes">5,248</td>
+            <td class="pct">42.5%</td>
+            <td class="candidate">W. T. Congleton</td>
+            <td class="votes">8,846</td>
+            <td class="pct">56.8%</td>
+          </tr>
+          <tr>
+            <td class="candidate">W. C. Wilson</td>
+            <td class="votes">4,362</td>
+            <td class="pct">35.3%</td>
+            <td class="candidate">W. C. Wilson</td>
+            <td class="votes">6,734</td>
+            <td class="pct">43.2%</td>
+          </tr>
+          <tr>
+            <td class="candidate">W. R. Anderson</td>
+            <td class="votes">2,732</td>
+            <td class="pct">22.1%</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr class="total">
+            <td class="candidate">Total</td>
+            <td class="votes">12,342</td>
+            <td class="pct"></td>
+            <td class="candidate">Total</td>
+            <td class="votes">15,580</td>
+            <td class="pct"></td>
+          </tr>
+        </table>
+ 
+        <div class="election-year">1935</div>
+        <table class="election-table">
+          <tr>
+            <th colspan="3" class="section-header">Primary election</th>
+            <th colspan="3" class="section-header">General election</th>
+          </tr>
+          <tr>
+            <td class="candidate">Reed Wilson</td>
+            <td class="votes">5,046</td>
+            <td class="pct">47.1%</td>
+            <td class="candidate">Reed Wilson</td>
+            <td class="votes">9,678</td>
+            <td class="pct">62.7%</td>
+          </tr>
+          <tr>
+            <td class="candidate">Victor K. Dodge</td>
+            <td class="votes">2,898</td>
+            <td class="pct">27.1%</td>
+            <td class="candidate">Victor K. Dodge</td>
+            <td class="votes">5,761</td>
+            <td class="pct">37.3%</td>
+          </tr>
+          <tr>
+            <td class="candidate">David C. Hunter</td>
+            <td class="votes">2,762</td>
+            <td class="pct">25.8%</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr class="total">
+            <td class="candidate">Total</td>
+            <td class="votes">10,706</td>
+            <td class="pct"></td>
+            <td class="candidate">Total</td>
+            <td class="votes">15,439</td>
+            <td class="pct"></td>
+          </tr>
+        </table>
+ 
+        <div class="election-year">1939</div>
+        <table class="election-table">
+          <tr>
+            <td colspan="3" rowspan="4" class="no-primary">No primary election held</td>
+            <th colspan="3" class="section-header">General election</th>
+          </tr>
+          <tr>
+            <td class="candidate">T. Ward Havely</td>
+            <td class="votes">7,277</td>
+            <td class="pct">62.7%</td>
+          </tr>
+          <tr>
+            <td class="candidate">Edward F. Underwood</td>
+            <td class="votes">4,338</td>
+            <td class="pct">37.3%</td>
+          </tr>
+          <tr class="total">
+            <td class="candidate">Total</td>
+            <td class="votes">11,615</td>
+            <td class="pct"></td>
+          </tr>
+        </table>
+      `;
+      return fetch('/includes/rightSidebar.html');
+    })
+    .then(r => r.text())
+    .then(html => {
+      document.getElementById('rightSidebar').innerHTML = html;
+    });
+
+  fetch('/includes/footer.html')
+    .then(r => r.text())
+    .then(html => {
+      document.getElementById('footer-placeholder').innerHTML = html;
+      document.getElementById('year').textContent = new Date().getFullYear();
+    });
+</script>
+</body>
+</html>
