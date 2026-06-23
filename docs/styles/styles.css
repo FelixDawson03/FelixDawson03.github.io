@@ -217,6 +217,49 @@ embed {
     color: var(--color-text-dark);
 }
 
+.election-year {
+    font-weight: bold;
+    margin: 24px 0 8px 0;
+}
+
+table.election-table {
+    border-collapse: collapse;
+    margin-bottom: 8px;
+}
+
+table.election-table th,
+table.election-table td {
+    border: 1px solid #000;
+    padding: 4px 10px;
+    white-space: nowrap;
+}
+
+table.election-table th.section-header {
+    text-align: center;
+    font-weight: normal;
+}
+
+table.election-table td.candidate {
+    text-align: left;
+}
+
+table.election-table td.votes {
+    text-align: right;
+}
+
+table.election-table td.pct {
+    text-align: left;
+}
+
+table.election-table tr.total td.candidate {
+    font-style: italic;
+}
+
+table.election-table td.no-primary {
+    text-align: center;
+    vertical-align: middle;
+}
+
 /* ===================================================================
    SIDEBAR & RIGHT COLUMN
    =================================================================== */
