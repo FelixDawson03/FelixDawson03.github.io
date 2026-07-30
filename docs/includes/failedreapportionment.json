@@ -1,12 +1,12 @@
 [
   {
     "rows": [
-      {"year": "1906", "yearRowspan": 1, "house": "<a href=\"/kentuckypolitics/redistricting/1906_H.pdf\" download>1906 c 139</a>", "senate": "—", "notespan": 1, "notes": "Enjoined in <i>Hensley v. Wood</i>, <a href=\"https://web.archive.org/web/20220808204041/https://law.justia.com/cases/federal/district-courts/FSupp/329/787/2596183/\">329 F. Supp. 787</a> (E.D. Ky. 1971)."}
+      {"year": "1906", "yearRowspan": 1, "house": "<a href=\"/kentuckypolitics/redistricting/1906_H.pdf\" download>1906 c 139</a>", "senate": "—", "notespan": 1, "notes": "Enjoined in <i>Ragland v. Anderson</i>, <a href=\"https://www.courtlistener.com/opinion/7224134/ragland-v-anderson/\">100 S.W. 865 (Ky. 1907)."}
     ]
   },
   {
     "rows": [
-      {"year": "1930", "yearRowspan": 1, "house": "<a href=\"/kentuckypolitics/redistricting/1930_H.pdf\" download>1930 c 147</a>", "senate": "<a href=\"/kentuckypolitics/redistricting/1930_S.pdf\" download>1930 c 148</a>", "notespan": 1, "notes": "Enjoined in <i>Hensley v. Wood</i>, <a href=\"https://web.archive.org/web/20220808204041/https://law.justia.com/cases/federal/district-courts/FSupp/329/787/2596183/\">329 F. Supp. 787</a> (E.D. Ky. 1971)."}
+      {"year": "1930", "yearRowspan": 1, "house": "<a href=\"/kentuckypolitics/redistricting/1930_H.pdf\" download>1930 c 147</a>", "senate": "<a href=\"/kentuckypolitics/redistricting/1930_S.pdf\" download>1930 c 148</a>", "notespan": 1, "notes": "Enjoined in <i>Stiglitz v. Schardien</i>, <a href=\"https://www.courtlistener.com/opinion/3452085/stiglitz-county-clerk-v-schardien/\">40 S.W.2d 315 (Ky. 1931)."}
     ]
   },
   {
@@ -21,7 +21,7 @@
   },
   {
     "rows": [
-      {"year": "2012", "yearRowspan": 1, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/2012_HS.pdf\" download>2012 c 1</a>", "notespan": 1, "notes": "Enjoined in <i>Hensley v. Wood</i>, <a href=\"https://web.archive.org/web/20220808204041/https://law.justia.com/cases/federal/district-courts/FSupp/329/787/2596183/\">329 F. Supp. 787</a> (E.D. Ky. 1971)."}
+      {"year": "2012", "yearRowspan": 1, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/2012_HS.pdf\" download>2012 c 1</a>", "notespan": 1, "notes": "Enjoined in <i>Legis. Rsch. Comm’n v. Fischer</i>, <a href=\"https://www.courtlistener.com/opinion/2540510/legislative-research-commission-v-fischer/\">366 S.W.3d 905 (Ky. 2012)."}
     ]
   }
 ]
