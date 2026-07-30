@@ -1,0 +1,27 @@
+[
+  {
+    "rows": [
+      {"year": "1906", "yearRowspan": 1, "house": "<a href=\"/kentuckypolitics/redistricting/1906_H.pdf\" download>1906 c 139</a>", "senate": "—", "notespan": 1, "notes": "Enjoined in <i>Hensley v. Wood</i>, <a href=\"https://web.archive.org/web/20220808204041/https://law.justia.com/cases/federal/district-courts/FSupp/329/787/2596183/\">329 F. Supp. 787</a> (E.D. Ky. 1971)."}
+    ]
+  },
+  {
+    "rows": [
+      {"year": "1930", "yearRowspan": 1, "house": "<a href=\"/kentuckypolitics/redistricting/1930_H.pdf\" download>1930 c 147</a>", "senate": "<a href=\"/kentuckypolitics/redistricting/1930_S.pdf\" download>1930 c 148</a>", "notespan": 1, "notes": "Enjoined in <i>Hensley v. Wood</i>, <a href=\"https://web.archive.org/web/20220808204041/https://law.justia.com/cases/federal/district-courts/FSupp/329/787/2596183/\">329 F. Supp. 787</a> (E.D. Ky. 1971)."}
+    ]
+  },
+  {
+    "rows": [
+      {"year": "1972", "yearRowspan": 1, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/1972_HS_1.pdf\" download>1972 c 227</a>", "notespan": 1, "notes": "Superseded by subsequent redistricting and never used."}
+    ]
+  },
+  {
+    "rows": [
+      {"year": "1995", "yearRowspan": 1, "house": "—", "senate": "<a href=\"/kentuckypolitics/redistricting/1995_S.pdf\" download>1995 (ex. 3) c 5</a>", "notespan": 1, "notes": "Superseded by subsequent redistricting and never used; a matching house plan was vetoed."}
+    ]
+  },
+  {
+    "rows": [
+      {"year": "2012", "yearRowspan": 1, "houseSenateShared": "<a href=\"/kentuckypolitics/redistricting/2012_HS.pdf\" download>2012 c 1</a>", "notespan": 1, "notes": "Enjoined in <i>Hensley v. Wood</i>, <a href=\"https://web.archive.org/web/20220808204041/https://law.justia.com/cases/federal/district-courts/FSupp/329/787/2596183/\">329 F. Supp. 787</a> (E.D. Ky. 1971)."}
+    ]
+  }
+]
