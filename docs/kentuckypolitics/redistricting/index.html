@@ -62,6 +62,44 @@
         </div>
       `;
       document.getElementById('rightSidebar').style.display = 'none';
+      return fetch('/includes/failedreapportionment.json');
+    })
+    .then(r => r.json())
+    .then(data => {
+      let groupIndex = 0;
+      let failedRows = '';
+      data.forEach(group => {
+          const groupClass = groupIndex % 2 === 0 ? 'RowEven' : 'RowOdd';
+          groupIndex++;
+          group.rows.forEach(r => {
+            const hasShared = r.hasOwnProperty('houseSenateShared');
+            failedRows += `<tr class="${groupClass}">
+              ${r.yearRowspan !== 0 ? `<td rowspan="${r.yearRowspan}" style="white-space:nowrap;">${r.year}</td>` : ''}
+              ${hasShared
+                ? `<td colspan="2" style="text-align:center;white-space:nowrap;">${r.houseSenateShared}</td>`
+                : `<td style="white-space:nowrap;">${r.house}</td><td style="white-space:nowrap;">${r.senate}</td>`
+              }
+              ${r.notespan !== 0 ? `<td rowspan="${r.notespan}">${r.notes}</td>` : ''}
+          </tr>`;
+        });
+      });
+      document.getElementById('rightCol').innerHTML += `
+        <p class="PageHeading" style="margin-top:2em;">Failed Redistricting Legislation</p>
+        <hr class="PageDivider">
+        <div style="overflow-x:auto;">
+          <table class="DataTable">
+            <thead>
+              <tr>
+                <th>Year of act</th>
+                <th>House</th>
+                <th>Senate</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody>${failedRows}</tbody>
+          </table>
+        </div>
+      `;
     });
 
   fetch('/includes/footer.html')
