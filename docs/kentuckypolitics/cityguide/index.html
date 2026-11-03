@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-  <title>Sample — Felix Dawson</title>
+  <title>Guide to Ky. City Elections — Felix Dawson</title>
   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
   <link rel="stylesheet" type="text/css" href="/styles/layout.css" />
   <link rel="stylesheet" type="text/css" href="/styles/styles.css" />
@@ -61,7 +61,9 @@
     .then(html => {
       injectHTML(document.getElementById('nav-placeholder'), html);
       document.getElementById('rightCol').innerHTML = `
-        <p><span class="PageHeading">Sample heading</span></p>
+        <div class="PageCornerLinkLeft"><a href="/kentuckypolitics/">← Kentucky Politics</a></div>
+        <p><span class="PageHeading">Guide to Ky. City Elections</span></p>
+        <p class="PageSubtitle">Published November 2, 2026.</p>
         <hr class="PageDivider">
         <p>Below is a table listing each incorporated city in Kentucky and its form of government. Although similar lists exist on Wikipedia (<a href="https://en.wikipedia.org/wiki/List_of_cities_in_Kentucky">here</a>) and the Kentucky Secretary of State’s website (<a href="https://web.sos.ky.gov/land/citiesprebuiltlists.aspx">here</a>), I felt the need to create a more definitive list that both (1) includes all pertinent information in one place convenient to the researcher, and (2) addresses the various errors present in both lists. The Secretary of State’s list seemingly has not been updated since 2015 and therefore in its current state has an error rate of about ten percent. The Wikipedia list suffers in this regard too in that it is based on the Secretary of State’s list; the result of this is that both lists contain cities that no longer exist, and there is really no way that I could correct the Wikipedia list without violating Wikipedia’s prohibition on original research.</p>
 
@@ -120,6 +122,10 @@
 <p>Seven of what I term “problem cities” are holding elections in 2026 for a “city council” with fewer than six members. This is impossible given the aforementioned requirement that a council elect six to twelve members. After researching what is happening in these cities, I have come to the conclusion that each is likely governed by a city commission but nonetheless uses the incorrect label “city council”. Two facts of law support this conclusion. The first is that in 1980 the General Assembly mandated that every city of the sixth class would be governed by a commission; all of these cities were sixth-class at the time. The second fact is that a change in a city’s form of government is only permitted by popular vote. KRS <a href="https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=43593">83A.160</a>(1). Since 1980, each of these problem cities has elected four city legislators, regardless of whatever term was used to describe them. In most cases, they were initially called “commissioners” before the county clerk began mislabeling the ballots for “city council”. Because no vote has been held in these cities regarding a change in government, and because they have continued to elect four legislators since 1980, I believe they are governed by commissions as a matter of law regardless of whatever term is used to describe themselves.</p>
 
 <p>Two of the problem cities, Bremen and South Carrollton, unilaterally increased the size of their “city council” (from 4 to 5, and 4 to 6, respectively) between the 2016 and 2018 elections without a referendum on their form of government. I believe these cities, properly governed by four-member commissions, are improper twice over—both in their terminology and in their number of members. The situation in South Carrollton, where a gentleman’s agreement exists under which no candidates run so that the council can appoint themselves to the resulting vacancies, could be an entire article unto itself. (This is improper for several reasons, not the least of which is that Kentucky law does not allow prospective appointment of city legislators). KRS <a href="https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=58058">83A.040</a>(5) (implied).</p>
+
+        <div class="PageSectionHeading">Table of Cities</div>
+        <p>The rightmost two columns reflect the total number of candidates on the ballot in 2026 for mayor and city legislative body in each city. Write-in candidates are not counted.</p>
+        
         <div id="cityTable" class="city-table-wrap">Loading…</div>
       `;
       fetch('/includes/citylist.json')
