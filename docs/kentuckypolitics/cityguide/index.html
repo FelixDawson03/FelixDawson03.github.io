@@ -14,6 +14,8 @@
     table.city-table td { border: 1px solid #ccc; padding: 4px 8px; text-align: left; }
     table.city-table th { background: #eee; position: sticky; top: 0; }
     table.city-table tbody tr:nth-child(even) { background: #f8f8f8; }
+    table.city-table sup a { text-decoration: none; }
+    p.city-note { font-size: 0.85em; margin: 0.4em 0; }
   </style>
 </head>
 <body>
@@ -27,7 +29,12 @@
     var esc = function (s) {
       return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
     };
-    var keys = Object.keys(rows[0]);
+    var notes = {
+      '\u2020': { id: 'note-dagger', text: 'Second-class city as of August 1, 2014; the mayor is limited to three consecutive terms (KRS 83A.024).' },
+      '\u2021': { id: 'note-double-dagger', text: 'One of the \u201cproblem cities\u201d discussed in the <a href="#methodology">Methodology</a> section above.' }
+    };
+    var keys = Object.keys(rows[0]).filter(function (k) { return k !== 'Note'; });
+    var used = {};
     var html = '<table class="city-table"><thead><tr>' +
       keys.map(function (k) { return '<th>' + esc(k) + '</th>'; }).join('') +
       '</tr></thead><tbody>' +
@@ -35,11 +42,18 @@
         return '<tr>' + keys.map(function (k) {
           var v = esc(r[k]);
           if (/^mayor-council$/i.test(v)) v = '<span style="white-space:nowrap">' + v + '</span>';
+          if (k === 'City' && notes[r.Note]) {
+            used[r.Note] = true;
+            v += '<sup><a href="#' + notes[r.Note].id + '" aria-label="Note">' + r.Note + '</a></sup>';
+          }
           return '<td>' + v + '</td>';
         }).join('') + '</tr>';
       }).join('') +
       '</tbody></table>';
-    container.innerHTML = html;
+    var noteHtml = Object.keys(notes).filter(function (n) { return used[n]; }).map(function (n) {
+      return '<p class="city-note" id="' + notes[n].id + '">' + n + ' ' + notes[n].text + '</p>';
+    }).join('');
+    container.innerHTML = html + noteHtml;
   }
 
   fetch('/includes/nav.html')
@@ -97,7 +111,7 @@
 
 <p>Elections for mayor and council are both nonpartisan. Charter §§ 4.04, 5.02. All elections are held in even-numbered years, with elections for mayor and council at-large in midterm years.</p>
 
-<h3>Methodology</h3>
+<h3 id="methodology">Methodology</h3>
 
 <p>I determined each city’s form of government by examining the sample ballots for 2026. If a city elected a “city council” with 6 to 12 members, it was deemed to use the mayor-council plan. If a city elected four “city commissioners”, then it was deemed to use either the commission or city manager plan. In order to determine which was which, I relied on the Secretary of State list as a starting point but verified each city under the city manager plan by finding the name of their current manager. I also verified that some of the more populous commission cities did not currently have a city manager.</p>
 
