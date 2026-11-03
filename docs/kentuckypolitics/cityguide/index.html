@@ -33,7 +33,9 @@
       '</tr></thead><tbody>' +
       rows.map(function (r) {
         return '<tr>' + keys.map(function (k) {
-          return '<td>' + esc(r[k]) + '</td>';
+          var v = esc(r[k]);
+          if (/^mayor-council$/i.test(v)) v = '<span style="white-space:nowrap">' + v + '</span>';
+          return '<td>' + v + '</td>';
         }).join('') + '</tr>';
       }).join('') +
       '</tbody></table>';
